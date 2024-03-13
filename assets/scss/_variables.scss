@@ -164,6 +164,7 @@ $border-radius-pill: 50rem;
 
 // Font
 $font-size-root: 14px;
+$font-size-root-rfs: rfs-value($font-size-root);
 $font-size-lg: $font-size-base * 1.15;
 $font-size-sm: $font-size-base * 0.85;
 
@@ -182,6 +183,16 @@ $line-height-computed: floor(($font-size-base * $line-height-base));
 $headings-margin-bottom: 1rem;
 $headings-line-height: $line-height-base * 0.85;
 $headings-color: var(--style-heading-color);
+
+$font-sizes: (
+	1: $h1-font-size,
+	2: $h2-font-size,
+	3: $h3-font-size,
+	4: $h4-font-size,
+	5: $h5-font-size,
+	6: $h6-font-size,
+	'reset': $font-size-root-rfs
+);
 
 $display-font-sizes: (
 	1: 5rem,
@@ -239,8 +250,8 @@ $input-btn-focus-color: none;
 $input-btn-focus-blur: none;
 $input-btn-focus-box-shadow: none;
 
-$input-btn-padding-y-sm: $input-btn-padding-y * 0.85;
-$input-btn-padding-x-sm: $input-btn-padding-y * 0.85;
+$input-btn-padding-y-sm: $input-btn-padding-y * 0.75;
+$input-btn-padding-x-sm: $input-btn-padding-x * 0.85;
 $input-btn-font-size-sm: $font-size-sm;
 
 $input-btn-padding-y-lg: $input-btn-padding-y * 1.15;
@@ -336,7 +347,7 @@ $input-line-height: $input-btn-line-height;
 
 $input-padding-y-sm: $input-btn-padding-y-sm;
 $input-padding-x-sm: $input-btn-padding-x-sm;
-$input-font-size-sm: input-btn-font-size-sm;
+$input-font-size-sm: $input-btn-font-size-sm;
 
 $input-padding-y-lg: $input-btn-padding-y-lg;
 $input-padding-x-lg: $input-btn-padding-x-lg;

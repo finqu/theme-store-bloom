@@ -1,13 +1,15 @@
 {%- assign mobileMenu = linklists[section.settings.mobileMenu] -%}
 {%- assign mobileMenuSecondary = linklists[section.settings.mobileMenuSecondary] -%}
 {%- assign mainMenu = linklists[section.settings.menu] -%}
+{%- assign headerBgColorBrightness = settings.style_header_bg_color | color_brightness -%}
 {%- assign headerContentColorBrightness = settings.style_header_text_color | color_brightness -%}
 {%- assign headerAccentColorBrightness = settings.style_header_accent_color | color_brightness -%}
 {%- assign bgColorBrightness = settings.style_bg_color | color_brightness -%}
 
 {%- capture sectionStyle -%}
     #finqu-section-{{ section.id }} .site-header-items-container,
-    #finqu-section-{{ section.id }} .site-mobile-header-container {
+    #finqu-section-{{ section.id }} .site-mobile-header-containe,
+    #finqu-section-{{ section.id }} .site-header-nav-container {
         --style-bg-color: {{ settings.style_header_bg_color }};
         --style-heading-color: {{ settings.style_header_text_color }};
         --style-text-color: {{ settings.style_header_text_color }};
@@ -123,6 +125,27 @@
             --site-mobile-header-nav-items-align: start;
             --site-mobile-header-actions-position: items-end;
             --site-mobile-header-actions-items-align: end;
+        {%- endif -%}
+    }
+    #finqu-section-{{ section.id }} .site-header-container .site-search-form {
+        {%- if headerBgColorBrightness > 190 -%}
+            --style-form-placeholder-color: {{ settings.style_text_color }};
+            --style-form-text-color: {{ settings.style_text_color }};
+            --style-form-bg-color: {{ settings.style_bg_color | color_darken: 5 }};
+            --style-form-border-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 15 }};
+            --style-form-border-focus-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 20 }};
+            --style-form-border-disabled-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 10 }};
+            --style-form-bg-hover-color: {{ settings.style_bg_color | color_darken: 10 }};
+            --style-form-bg-disabled-color: {{ settings.style_bg_color | color_darken: 15 }};
+        {%- else -%}
+            --style-form-placeholder-color: {{ settings.style_text_color }};
+            --style-form-text-color: {{ settings.style_text_color }};
+            --style-form-bg-color: {{ settings.style_bg_color | color_lighten: 5 }};
+            --style-form-border-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 15 }};
+            --style-form-border-focus-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 20 }};
+            --style-form-border-disabled-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 10 }};
+            --style-form-bg-hover-color: {{ settings.style_bg_color | color_lighten: 10 }};
+            --style-form-bg-disabled-color: {{ settings.style_bg_color | color_lighten: 15 }};
         {%- endif -%}
     }
     {%- if settings.styleCartVariant == 2 -%}
@@ -1086,15 +1109,15 @@
                             
                                             {% endif %}
 
-                                            <div class="input-group">
+                                            <div class="input-group input-group-sm">
 
                                                 <button type="submit" class="btn pe-0">
 
                                                     {%- render 'icon', icon: 'search' -%}
 
                                                 </button>
-                
-                                            <input
+                    
+                                                <input
                                                     class="form-control"
                                                     type="search"
                                                     placeholder="{{ 'general.search_products' | t }}"
@@ -1134,25 +1157,11 @@
 
                     {% if store.customer_accounts_enabled %}
 
-                        <div class="site-header-item site-header-item-account py-0 px-4 border-end">
+                        <div class="site-header-item site-header-item-account">
 
-                            <a href="{{ session.logged_in | yepnope: routes.account_url, routes.account_login_url }}" class="d-flex {% if session.logged_in %}align-items-center{% else %}flex-column{% endif %}">
+                            <a href="{{ session.logged_in | yepnope: routes.account_url, routes.account_login_url }}" class="btn btn-text">
 
-                                {% if session.logged_in %}
-
-                                    {%- render 'icon', icon: 'user', class: 'svg-icon-fw' -%}
-
-                                {% else  %}
-
-                                    <small class="d-block">
-                                        {{- 'general.login_or_signup' | t -}}
-                                    </small>
-
-                                {% endif %}
-
-                                <span class="fw-bold">
-                                    {{- 'account.title' | t -}}
-                                </span>
+                                {%- render 'icon', icon: 'user' -%}
 
                             </a>
 
@@ -1162,27 +1171,19 @@
 
                     {% if settings.accessibilityShowWishlist %}
 
-                        <div class="site-header-item site-header-item-wishlist py-0 px-4 border-end">
+                        <div class="site-header-item site-header-item-wishlist">
 
-                            <a href="{{ routes.account_wishlist_url }}" class="d-flex align-items-center">
+                            <a href="{{ routes.account_wishlist_url }}" class="btn btn-text">
 
-                                <div class="position-relative">
+                                <span class="site-header-item-counter{% if wishlist.products.size > 0 %} has-items{% endif %}">
 
-                                    <span class="site-header-item-counter{% if wishlist.products.size > 0 %} has-items{% endif %}">
-
-                                        <span class="site-header-item-counter-text" data-wishlist-item-count>
-                                            {{ wishlist.products.size }}
-                                        </span>
-
+                                    <span class="site-header-item-counter-text" data-wishlist-item-count>
+                                        {{ wishlist.products.size }}
                                     </span>
 
-                                    {%- render 'icon', icon: 'like', class: 'svg-icon-fw' -%}
-                                
-                                </div>
-
-                                <span class="fw-bold ms-3">
-                                    {{- 'wishlist.title' | t -}}
                                 </span>
+
+                                {%- render 'icon', icon: 'like' -%}
 
                             </a>
 
@@ -1190,27 +1191,19 @@
 
                     {% endif %}
 
-                    <div class="site-header-item site-header-item-cart py-0 px-4">
+                    <div class="site-header-item site-header-item-cart">
 
-                        <a href="{{ routes.cart_url }}" class="d-flex align-items-center">
+                        <a href="{{ routes.cart_url }}" class="btn btn-text">
 
-                            <div class="position-relative">
+                            <span class="site-header-item-counter{% if cart.items.size > 0 %} has-items{% endif %}">
 
-                                <span class="site-header-item-counter{% if cart.items.size > 0 %} has-items{% endif %}">
-
-                                    <span class="site-header-item-counter-text" data-cart-item-count="true">
-                                        {{- cart.item_count -}}
-                                    </span>
-
+                                <span class="site-header-item-counter-text" data-cart-item-count="true">
+                                    {{ cart.item_count }}
                                 </span>
 
-                                {%- render 'icon', icon: 'cart', class: 'svg-icon-fw' -%}
-
-                            </div>
-
-                            <span class="fw-bold ms-3">
-                                {{- 'general.cart' | t -}}
                             </span>
+
+                            {%- render 'icon', icon: 'cart' -%}
 
                         </a>
 

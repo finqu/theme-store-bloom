@@ -157,20 +157,6 @@ body {
 					letter-spacing: 0;
 				}
 
-				.product-manufacturer {
-
-					.product-manufacturer-text {
-						@include font-size($font-size-base * 2);
-						font-family: $accent-font-family;
-						font-weight: $accent-font-weight;
-						font-style: $accent-font-style;
-						line-height: $line-height-computed * 1.6;
-						@if $accent-text-transform != 'none' {
-							text-transform: $accent-text-transform;
-						}
-					}
-				}
-
 				.product-name {
 
 					.product-name-text {

@@ -12,9 +12,11 @@ body {
     }
 }
 
-.section-site-announcement + .section-site-header .site-header-items-container,
-.section-site-announcement + .section-site-header .site-mobile-header {
-    border-top: 1px solid var(--style-border-color);
+.section-site-announcement {
+
+    .site-announcement-text {
+        @include font-size($font-size-base * 0.9);
+    }
 }
 
 .section-site-header {
@@ -220,6 +222,7 @@ body {
 
                             .site-search-container {
                                 flex: 1;
+                                max-width: 650px;
 
                                 .site-search {
                                     width: 100%;
@@ -240,6 +243,7 @@ body {
                                             input[type="search"] {
                                                 appearance: none;
                                                 -webkit-appearance: none;
+                                                @include font-size(1rem);
                         
                                                 &::-webkit-search-decoration,
                                                 &::-webkit-search-cancel-button,
@@ -335,8 +339,14 @@ body {
                 }
             }
 
+            .site-header-item-cart {
+                z-index: 6;
+            }
+
             .site-header-item-counter {
                 position: absolute;
+                top: 5px;
+                right: 4px;
                 height: 16px;
                 min-width: 16px;
                 border-radius: 50%;
@@ -355,28 +365,10 @@ body {
                 }
             }
 
-            .site-header-item-cart {
-                z-index: 6;
-
-                .site-header-item-counter {
-                    top: -3px;
-                    right: -7px;
-                }
-            }
-
-            .site-header-item-wishlist {
-
-                .site-header-item-counter {
-                    top: -3px;
-                    right: -7px;
-                }
-            }
-
             .site-header-cart-mini-container {
                 position: absolute;
                 right: 0;
                 z-index: 5;
-                padding-top: 7px;
             }
 
             .site-header-logo-text {
