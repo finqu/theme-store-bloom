@@ -8,7 +8,7 @@
 
 {%- capture sectionStyle -%}
     #finqu-section-{{ section.id }} .site-header-items-container,
-    #finqu-section-{{ section.id }} .site-mobile-header-containe,
+    #finqu-section-{{ section.id }} .site-mobile-header-container,
     #finqu-section-{{ section.id }} .site-header-nav-container {
         --style-bg-color: {{ settings.style_header_bg_color }};
         --style-heading-color: {{ settings.style_header_text_color }};
@@ -131,21 +131,39 @@
         {%- if headerBgColorBrightness > 190 -%}
             --style-form-placeholder-color: {{ settings.style_text_color }};
             --style-form-text-color: {{ settings.style_text_color }};
-            --style-form-bg-color: {{ settings.style_bg_color | color_darken: 5 }};
             --style-form-border-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 15 }};
             --style-form-border-focus-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 20 }};
             --style-form-border-disabled-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 10 }};
             --style-form-bg-hover-color: {{ settings.style_bg_color | color_darken: 10 }};
             --style-form-bg-disabled-color: {{ settings.style_bg_color | color_darken: 15 }};
+
+            {%- if settings.styleInputBorder -%}
+                --style-form-bg-color: {{ settings.style_bg_color }};
+                --style-form-bg-hover-color: {{ settings.style_bg_color }};
+                --style-form-bg-disabled-color: {{ settings.style_bg_color }};
+            {%- else -%}
+                --style-form-bg-color: {{ settings.style_bg_color | color_darken: 5 }};
+                --style-form-bg-hover-color: {{ settings.style_bg_color | color_darken: 10 }};
+                --style-form-bg-disabled-color: {{ settings.style_bg_color | color_darken: 15 }};
+            {%- endif -%}
+
         {%- else -%}
+
             --style-form-placeholder-color: {{ settings.style_text_color }};
             --style-form-text-color: {{ settings.style_text_color }};
-            --style-form-bg-color: {{ settings.style_bg_color | color_lighten: 5 }};
             --style-form-border-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 15 }};
             --style-form-border-focus-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 20 }};
             --style-form-border-disabled-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 10 }};
-            --style-form-bg-hover-color: {{ settings.style_bg_color | color_lighten: 10 }};
-            --style-form-bg-disabled-color: {{ settings.style_bg_color | color_lighten: 15 }};
+
+            {%- if settings.styleInputBorder -%}
+                --style-form-bg-color: {{ settings.style_bg_color }};
+                --style-form-bg-hover-color: {{ settings.style_bg_color }};
+                --style-form-bg-disabled-color: {{ settings.style_bg_color }};
+            {%- else -%}
+                --style-form-bg-color: {{ settings.style_bg_color | color_lighten: 5 }};
+                --style-form-bg-hover-color: {{ settings.style_bg_color | color_lighten: 10 }};
+                --style-form-bg-disabled-color: {{ settings.style_bg_color | color_lighten: 15 }};
+            {%- endif -%}
         {%- endif -%}
     }
     {%- if settings.styleCartVariant == 2 -%}
@@ -1110,12 +1128,6 @@
                                             {% endif %}
 
                                             <div class="input-group input-group-sm">
-
-                                                <button type="submit" class="btn pe-0">
-
-                                                    {%- render 'icon', icon: 'search' -%}
-
-                                                </button>
                     
                                                 <input
                                                     class="form-control"
@@ -1125,9 +1137,15 @@
                                                     value="{{ search.search_term }}"
                                                     autocomplete="off">
 
-                                                <button type="reset" class="btn btn-icon ps-0">
+                                                <button type="reset" class="btn btn-icon">
 
-                                                    {%- render 'icon', icon: 'close' -%}
+                                                    {%- render 'icon', icon: 'close', class: 'fs-reset' -%}
+
+                                                </button>
+
+                                                <button type="submit" class="btn border-start-0">
+
+                                                    {%- render 'icon', icon: 'search' -%}
 
                                                 </button>
 
@@ -2342,8 +2360,10 @@
                                             "label": "1:1"
                                         }
                                     ],
-                                    "adjustments": true,
-                                    "conditions": ["!index eq blank"]
+                                    "conditions": [
+                                        "!index eq blank",
+                                        "!promotion2Img eq false"
+                                    ]
                                 },
                                 {
                                     "id": "promotion2Link",
@@ -2354,7 +2374,10 @@
                                     },
                                     "include_target": true,
                                     "include_text": true,
-                                    "conditions": ["!index eq blank"]
+                                    "conditions": [
+                                        "!index eq blank",
+                                        "!promotion2Img eq false"
+                                    ]
                                 },
                                 {
                                     "type": "title",
