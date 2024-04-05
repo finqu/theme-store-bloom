@@ -188,6 +188,7 @@ body {
                     display: grid;
                     grid-template-areas: 'items-start items-center items-end';
                     grid-template-columns: var(--site-header-template-columns);
+                    grid-template-rows: var(--site-header-template-rows, none);
                     align-items: center;
                     --style-icon-stroke-width: var(--style-navigation-icon-stroke-width);
 
@@ -198,7 +199,6 @@ body {
                         margin: var(--site-header-logo-margin);
                         text-align: center;
                         position: relative;
-                        margin-left: -#{spacer(2)};
                     }
 
                     .site-header-items-actions-container {
@@ -206,7 +206,6 @@ body {
                         grid-area: var(--site-header-actions-position);
                         justify-self: var(--site-header-actions-items-align);
                         position: relative;
-                        margin-right: -#{spacer(2)};
                     }
 
                     .site-header-items-search-container {   
@@ -444,6 +443,7 @@ body {
                 position: relative;
 
                 .site-header-submenu {
+                    width: 100%;
                     height: 0;
                     visibility: hidden;
                     opacity: 0;
@@ -459,6 +459,7 @@ body {
                     overflow: hidden;
 
                     &:not(.is-megamenu) {
+                        width: fit-content;
                         box-shadow: 0 10px 25px rgb(0 0 0 / 15%);
             
                         &.site-header-submenu-active {
@@ -473,6 +474,7 @@ body {
                             visibility: hidden;
                             width: 100%;
                             display: none;
+                            margin-top: 1px;
         
                             .site-header-sublevel-menu {
                                 display: flex;
@@ -683,10 +685,13 @@ body {
         position: sticky;
         top: 0;
         z-index: 7;
-        transition: transform 0.4s;
         transform: none;
         @include media-breakpoint-up(lg) {
             display: none;
+        }
+
+        &.site-header-container-transition {
+            transition: transform 0.4s;
         }
 
         &.site-mobile-header-container-hide {
