@@ -3,8 +3,9 @@
 {%- assign mainMenu = linklists[section.settings.menu] -%}
 {%- assign headerBgColorBrightness = settings.style_header_bg_color | color_brightness -%}
 {%- assign headerContentColorBrightness = settings.style_header_text_color | color_brightness -%}
-{%- assign headerAccentColorBrightness = settings.style_header_accent_color | color_brightness -%}
 {%- assign bgColorBrightness = settings.style_bg_color | color_brightness -%}
+{%- assign accentColor = settings.style_header_accent_color | color_min_contrast: settings.style_header_bg_color, 2 -%}
+{%- assign headerAccentColorBrightness = accentColor | color_brightness -%}
 
 {%- capture sectionStyle -%}
     #finqu-section-{{ section.id }} .site-header-items-container,
@@ -28,12 +29,12 @@
         --style-border-focus-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 20 }};
         --style-border-accent-color: {{ settings.style_header_text_color | color_mix: settings.style_header_bg_color, 50 }};
 
-        --style-accent-color: {{ settings.style_header_accent_color }};
+        --style-accent-color: {{ accentColor }};
 
         {%- if headerAccentColorBrightness > 190 -%}
-            --style-accent-text-color: {{ '#000000' | color_min_contrast: settings.style_header_accent_color }};
+            --style-accent-text-color: {{ '#000000' | color_min_contrast: accentColor }};
         {%- else -%}
-            --style-accent-text-color: {{ '#ffffff' | color_min_contrast: settings.style_header_accent_color }};
+            --style-accent-text-color: {{ '#ffffff' | color_min_contrast: accentColor }};
         {%- endif -%}
 
         {%- if headerContentColorBrightness > 190 -%}
@@ -383,26 +384,21 @@
 
                 <div class="site-mobile-header-items-logo-container">
 
-                    <div class="site-mobile-header-item site-mobile-header-logo">
+                    <div class="site-mobile-header-item site-mobile-header-item-logo">
 
                         <a href="{{ routes.root_url }}">
 
-                            {%- assign imgSizeOnPhone = '200,25' -%}
-                            {%- assign imgSizeOnTablet = '400,35' -%}
-
                             {% if section.settings.logoImg %}
 
-                                <img
-                                    alt="{{ store.name }}"
-                                    src="{{ section.settings.logoImg | thumb: imgSizeOnTablet }}"
-                                    srcset="{{ section.settings.logoImg | thumb: imgSizeOnTablet }} 1x, {{ section.settings.logoImg | thumb: imgSizeOnTablet | thumb:'@2x' }} 2x"
-                                    class="img-fluid site-mobile-header-logo-img d-none d-md-block">
+                                {%- capture imgSize -%}
+                                    {{- section.settings.mobileLogoSize -}},{{- section.settings.mobileLogoSize | times: 0.5 | ceil -}}
+                                {%- endcapture -%}
 
                                 <img
                                     alt="{{ store.name }}"
-                                    src="{{ section.settings.logoImg | thumb: imgSizeOnPhone }}"
-                                    srcset="{{ section.settings.logoImg | thumb: imgSizeOnPhone }} 1x, {{ section.settings.logoImg | thumb: imgSizeOnPhone | thumb:'@2x' }} 2x"
-                                    class="img-fluid site-mobile-header-logo-img d-block d-md-none">
+                                    src="{{ section.settings.logoImg | thumb: imgSize }}"
+                                    srcset="{{ section.settings.logoImg | thumb: imgSize }} 1x, {{ section.settings.logoImg | thumb: imgSize | thumb:'@2x' }} 2x"
+                                    class="img-fluid site-mobile-header-logo-img">
 
                             {% else %}
 
@@ -2000,6 +1996,20 @@
                         },
                         "type": "range",
                         "min": 80,
+                        "max": 200,
+                        "step": 10,
+                        "default": 100,
+                        "unit": "px",
+                        "conditions": ["!logoImg eq false"]
+                    },
+                    {
+                        "id": "mobileLogoSize",
+                        "label": {
+                            "en": "Logo size on mobile device",
+                            "fi": "Logon koko mobiililaitteella"
+                        },
+                        "type": "range",
+                        "min": 60,
                         "max": 200,
                         "step": 10,
                         "default": 100,
