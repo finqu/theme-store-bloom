@@ -85,6 +85,8 @@
     }
     #finqu-section-{{ section.id }} .site-header-container {
         --site-header-items-padding-y: {{ section.settings.headerItemsPaddingY }};
+        --style-navigation-icon-stroke-width: {{ settings.styleIconStrokeWidth | replace: 'px', '' | times: 1.7 | append: 'px' -}};
+
         {%- if section.settings.menuItemsAlign == 'start' -%}
             --site-header-template-columns: 20% 1fr 20%;
             --site-header-logo-position: items-start;
@@ -1123,7 +1125,7 @@
                             
                                             {% endif %}
 
-                                            <div class="input-group input-group-sm">
+                                            <div class="input-group">
                     
                                                 <input
                                                     class="form-control"

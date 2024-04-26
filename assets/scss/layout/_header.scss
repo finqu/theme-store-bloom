@@ -12,13 +12,6 @@ body {
     }
 }
 
-.section-site-announcement {
-
-    .site-announcement-text {
-        @include font-size($font-size-base * 0.9);
-    }
-}
-
 .section-site-header {
     position: sticky;
     top: 0;
@@ -198,7 +191,7 @@ body {
                         display: flex;
                         grid-area: var(--site-header-logo-position);
                         justify-self: var(--site-header-logo-items-align);
-                        margin: var(--site-header-logo-margin);
+                        margin-right: var(--site-header-logo-margin);
                         text-align: center;
                         position: relative;
                     }
@@ -240,17 +233,6 @@ body {
                                     .site-search-form-container {
 
                                         .site-search-form {
-
-                                            .input-group {
-
-                                                .form-control {
-                                                    padding: $input-padding-y * 0.72 $input-padding-x;
-                                                }
-
-                                                .btn {
-                                                    padding: $input-padding-y * 0.72 $input-padding-x;
-                                                }
-                                            }
 
                                             input[type="search"] {
                                                 appearance: none;
@@ -349,7 +331,7 @@ body {
                         }
 
                         .svg-icon {
-                            @include font-size($font-size-base * 1.6);
+                            @include font-size($font-size-base * 1.9);
                         }
                     }
                 }
@@ -405,7 +387,7 @@ body {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: var(--site-header-nav-items-align);
-                    gap: 4rem;
+                    gap: 3.5rem;
                     margin-bottom: 0;
                     list-style: none;
 
