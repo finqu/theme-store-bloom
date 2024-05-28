@@ -165,11 +165,11 @@
             "registerAdditionalInformation": false,
             "showPolicyAgreementAsText": false,
             "klarnaClientId": "",
-            "facebookPageUrl": "",
-            "instagramPageUrl": "",
-            "xPageUrl": "",
-            "whatsappPageUrl": "",
-            "snapchatPageUrl": "",
+            "facebookPageUrl": "#",
+            "instagramPageUrl": "#",
+            "xPageUrl": "#",
+            "whatsappPageUrl": "#",
+            "snapchatPageUrl": "#",
             "pinterestPageUrl": "",
             "youtubePageUrl": "",
             "linkedinPageUrl": "",
@@ -177,49 +177,127 @@
             "redditPageUrl": "",
             "tiktokPageUrl": "",
             "ravelryPageUrl": "",
-            "twitterPageUrl": "",
-            "newsletterPopup": false,
+            "newsletterPopup": true,
             "newsletterPopupDelay": "5",
             "newsletterPopupCookieDuration": "86400",
             "newsletterPopupImg": {
-                "string_value": "https:\/\/images.unsplash.com\/photo-1469334031218-e382a71b716b",
-                "src": "https:\/\/images.unsplash.com\/photo-1469334031218-e382a71b716b",
+                "string_value": "https:\/\/images.unsplash.com\/photo-1519340241574-2cec6aef0c01?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyMXx8a2lkc3xlbnwwfHwxfHwxNzE0ODMwNDc5fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                "src": "https:\/\/images.unsplash.com\/photo-1519340241574-2cec6aef0c01?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyMXx8a2lkc3xlbnwwfHwxfHwxNzE0ODMwNDc5fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
                 "offset_top": "50",
                 "offset_left": "50",
-                "width": "800",
-                "height": "800"
+                "width": "1602",
+                "height": "2848"
             },
             "schemaWebsite": true,
             "schemaOrganization": true,
             "schemaProduct": true,
             "schemaBlogPosting": true,
             "schemaBreadcrumbList": true,
-            "schemaItemList": true
+            "schemaItemList": true,
+            "twitterPageUrl": ""
         },
         "sections": [
             {
                 "id": "header",
                 "name": "header",
                 "settings": {
+                    "gridContainer": "",
                     "headerItemsPaddingY": "1rem",
                     "logoImg": {
-                        "string_value": "",
-                        "src": "",
+                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
+                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
                         "offset_top": "",
                         "offset_left": "",
-                        "width": "",
-                        "height": ""
+                        "width": "152",
+                        "height": "494"
                     },
-                    "logoSize": "120",
+                    "logoSize": "100",
+                    "mobileLogoSize": "80",
                     "mobileLogoPosition": "center",
-                    "menu": "main",
                     "menuItemsAlign": "center",
+                    "menu": "main",
                     "mobileMenu": "main",
                     "mobileMenuSecondaryTitle": "",
                     "mobileMenuSecondary": "",
                     "mobileNavigationSimple": false,
                     "mobileShowSocialIconsInNavigation": true,
-                    "mobileShowSearchInNavigation": false
+                    "mobileShowSearchInNavigation": false,
+                    "setting_blocks": {
+                        "megamenus": {
+                            "71ba2e19-776f-448b-a719-f064735eb509": {
+                                "type": "menu",
+                                "settings": {
+                                    "index": "1",
+                                    "colPerRow": "5",
+                                    "menu": "mega",
+                                    "promotion1Img": {
+                                        "string_value": "https:\/\/images.unsplash.com\/photo-1601925240970-98447486fcdb?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhpbmd8ZW58MHx8MXx8MTcxNDkwNDA3OXww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                        "src": "https:\/\/images.unsplash.com\/photo-1601925240970-98447486fcdb?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhpbmd8ZW58MHx8MXx8MTcxNDkwNDA3OXww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "3465",
+                                        "height": "3465"
+                                    },
+                                    "promotion1ImgAspectRatio": "4:3",
+                                    "promotion1Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion2Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion2ImgAspectRatio": "4:3",
+                                    "promotion2Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion3Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion3ImgAspectRatio": "4:3",
+                                    "promotion3Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion4Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion4ImgAspectRatio": "4:3",
+                                    "promotion4Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             },
             {
@@ -229,7 +307,7 @@
                     "announcementStatus": true,
                     "announcementTextAlign": "center",
                     "announcementVisibility": "all",
-                    "carouselAutoplaySpeed": "3",
+                    "carouselAutoplaySpeed": "5",
                     "setting_blocks": {
                         "items": {
                             "07acbdce-1a2b-4e24-b52e-4fade3565411": {
@@ -238,7 +316,19 @@
                                     "announcementLink": {
                                         "type": "url",
                                         "record_id": "",
-                                        "text": "Luo ensimm\u00e4inen ilmoituksesi! Kerro asiakkaille tarjouksista ja tapahtumista.",
+                                        "text": "Verkkokauppamme t\u00e4ytti 5 vuotta! - Juhlan kunniaksi p\u00e4ivitt\u00e4in vaihtuvia supertarjouksia!",
+                                        "url": "",
+                                        "target": "_self"
+                                    }
+                                }
+                            },
+                            "e311f7db-79c1-4343-9423-5aded555881b": {
+                                "type": "text",
+                                "settings": {
+                                    "announcementLink": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "L\u00f6yd\u00e4 kes\u00e4n hauskimmat lelut meilt\u00e4! Sukella seikkailuihin ulkona ja sis\u00e4ll\u00e4. Katso tuotteet!",
                                         "url": "",
                                         "target": "_self"
                                     }
@@ -252,15 +342,8 @@
                 "id": "footer",
                 "name": "footer",
                 "settings": {
-                    "footerGap": "3rem",
-                    "footerPaddingTop": "5.7rem",
-                    "footerPaddingBottom": "2.7rem",
-                    "footerTopBorder": false,
-                    "footerTopBorderFluid": false,
-                    "footerBottomBorder": true,
-                    "footerBottomBorderFluid": false,
-                    "footerTextArea1Title": "Meist\u00e4",
-                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit\u00e4 tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv\u00e4isyyteen pyrimme tarjoamaan sinulle uusimmat trendit, ly\u00f6m\u00e4tt\u00f6m\u00e4t hinnat ja vertaansa vailla olevan palvelun.<\/p>",
+                    "footerTextArea1Title": "Meist\u00e4 ",
+                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit\u00e4 tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv\u00e4isyyteen pyrimme tarjoamaan sinulle uusimmat trendit, ly\u00f6m\u00e4tt\u00f6m\u00e4t hinnat ja vertaansa vailla olevan palvelun.&nbsp;<\/p>",
                     "footerTextArea2Content": "<p>\u00a9 2024 Bloom<\/p>",
                     "footerNewsletterTitle": "Uutiskirje",
                     "footerNewsletterContent": "<p>Tilaa uutiskirje saadaksesi ilmoituksia uusista tuotteista, erikoistarjouksista ja tapahtumista.<\/p>",
@@ -275,19 +358,26 @@
                         "height": ""
                     },
                     "footerLogoImg": {
-                        "string_value": "",
-                        "src": "",
+                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
+                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
                         "offset_top": "",
                         "offset_left": "",
-                        "width": "",
-                        "height": ""
+                        "width": "152",
+                        "height": "494"
                     },
-                    "footerMenu1Title": "Pikalinkit",
-                    "footerMenu1": "footer",
-                    "footerMenu2Title": "Tiedot",
+                    "footerMenu1Title": "Bloom",
+                    "footerMenu1": "footer-verkkokauppa",
+                    "footerMenu2Title": "Verkkokauppa",
                     "footerMenu2": "footer",
                     "footerMenu3Title": "",
                     "footerMenu3": "",
+                    "footerGap": "3rem",
+                    "footerPaddingTop": "5.7rem",
+                    "footerPaddingBottom": "2.7rem",
+                    "footerTopBorder": "",
+                    "footerTopBorderFluid": "",
+                    "footerBottomBorder": true,
+                    "footerBottomBorderFluid": "",
                     "footerLayout": "6",
                     "footerTextArea1Status": true,
                     "footerTextArea2Status": true,
@@ -306,10 +396,11 @@
                         "title": "Hero-karuselli",
                         "name": "hero-carousel",
                         "settings": {
-                            "textHorizontalAlign": "start",
+                            "textHorizontalAlign": "center",
                             "textVerticalAlign": "center",
                             "btnStyle": "nil",
-                            "imgDimming": "15",
+                            "sectionHeaderFontSizeScale": "1",
+                            "imgDimming": "0",
                             "imgBlur": "0",
                             "carouselNavigation": "",
                             "carouselPagination": "on",
@@ -319,7 +410,8 @@
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
-                            "sectionColorScheme": "dark",
+                            "sectionColorScheme": "light",
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionMinHeight": "75",
                             "setting_blocks": {
@@ -328,8 +420,8 @@
                                         "type": "image",
                                         "settings": {
                                             "overline": "",
-                                            "title": "Uusi mahtava Hero-otsikko!",
-                                            "subtitle": "Kerro asiakkaillesi t\u00e4st\u00e4 Hero-osiosta.",
+                                            "title": "L\u00f6yd\u00e4 kes\u00e4n hauskimmat lelut meilt\u00e4!",
+                                            "subtitle": "Sukella seikkailuihin ulkona ja sis\u00e4ll\u00e4 \u2013 t\u00e4\u00e4lt\u00e4 l\u00f6yd\u00e4t kaiken tarvittavan kes\u00e4n leikkeihin.",
                                             "btnLink": {
                                                 "type": "url",
                                                 "record_id": "",
@@ -338,8 +430,8 @@
                                                 "target": "_self"
                                             },
                                             "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1620420678517-d45e226dfe6c",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1620420678517-d45e226dfe6c",
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1573297663823-b4d453566b32?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNTgwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1573297663823-b4d453566b32?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNTgwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
                                                 "width": "2560",
@@ -351,8 +443,8 @@
                                         "type": "image",
                                         "settings": {
                                             "overline": "",
-                                            "title": "Uusi mahtava Hero-otsikko!",
-                                            "subtitle": "Kerro asiakkaillesi t\u00e4st\u00e4 Hero-osiosta.",
+                                            "title": "Sisusta lastenhuone unelmien pes\u00e4ksi!",
+                                            "subtitle": "Inspiroi luovuutta ja j\u00e4rjest\u00e4 mukava tila leikille ja oppimiselle upeilla sisustustuotteillamme. Tutustu uusiin, ihastuttaviin sisustusideoidemme lastenhuoneisiin!",
                                             "btnLink": {
                                                 "type": "url",
                                                 "record_id": "",
@@ -361,17 +453,116 @@
                                                 "target": "_self"
                                             },
                                             "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1560859259-fcf2b952aed8",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1560859259-fcf2b952aed8",
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1505692795793-20f543407193?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNjQwNHww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1505692795793-20f543407193?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNjQwNHww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
                                                 "offset_top": "50",
                                                 "offset_left": "50",
-                                                "width": "2560",
+                                                "width": "2656",
                                                 "height": "3840"
                                             }
                                         }
                                     }
                                 }
                             }
+                        },
+                        "blocks": [],
+                        "visibility": null
+                    },
+                    {
+                        "id": "1e2e0a77ffdbb9c1754380a85ae27bf6",
+                        "title": "Kampanjabanneri alennuskoodilla",
+                        "name": "promotion-banner",
+                        "settings": {
+                            "bannerLayout": "2",
+                            "title": "BLOOM syntt\u00e4rit k\u00e4ynniss\u00e4 - lunasta 25% alennus koodilla:",
+                            "discountCode": "BLOOM5V",
+                            "datetime": "",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Shoppaile nyt",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionTextAlign": "center",
+                            "btnStyle": "nil",
+                            "datetimeZeroPad": true,
+                            "datetimeHideTimeUnitOnZero": false,
+                            "datetimeShowYears": false,
+                            "datetimeShowMonths": false,
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f8e6c5",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "2",
+                            "sectionPaddingBottom": "2"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "7f61c741dc5510b101f909cd7aee890d",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "P\u00c4IV\u00c4N SUPERTARJOUS!",
+                            "sectionSubtitle": "",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "start",
+                            "sectionHeaderFontSizeScale": "1.1",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#e7c5f8",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "e1864cb8ef6e8d2a78126f06f9a43784",
+                        "title": "Tuotemainos",
+                        "name": "product-promotion",
+                        "settings": {
+                            "product": {
+                                "type": "product",
+                                "id": "26238833",
+                                "name": "Painokuvioitu napitettava midimittainen camimekko hibiscus dot"
+                            },
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showDescription": true,
+                            "sectionTextAlign": "nil",
+                            "sectionTitleTag": "h3",
+                            "btnStyle": "nil",
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#e7c5f8",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "1",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
                         },
                         "blocks": []
                     },
@@ -381,12 +572,12 @@
                         "name": "product-carousel",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Uudet tulokkaat",
-                            "sectionSubtitle": "",
+                            "sectionTitle": "L\u00f6yd\u00e4 kauden trendit",
+                            "sectionSubtitle": "Tutustu uusimpiin trendeihin ja klassikoihin. Meilt\u00e4 l\u00f6yd\u00e4t vaatteet, jotka kest\u00e4v\u00e4t leikin ja seikkailun.",
                             "sectionQuickLinkResource": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "",
+                                "text": "Katso kaikki",
                                 "url": ""
                             },
                             "listType": "recent",
@@ -436,19 +627,21 @@
                             },
                             "promotionImgDimming": "20",
                             "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
                             "sectionTextAlign": "nil",
-                            "sectionQuickLinkStyle": "nil",
+                            "sectionQuickLinkStyle": "link",
                             "carouselStyle": "2",
                             "carouselNavigation": "hover",
                             "carouselPagination": "on",
-                            "carouselAutoplaySpeed": "5",
+                            "carouselAutoplaySpeed": "3",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
-                            "sectionPaddingMode": "auto",
-                            "sectionPaddingTop": "0",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -464,20 +657,664 @@
                         "blocks": []
                     },
                     {
-                        "id": "bc37be184cf3abcda74d3ce57cecc67a",
+                        "id": "7910e41ad59eb2d86cc0f47bf54350c6",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Sisusta unelmien lastenhuone",
+                            "sectionSubtitle": "Anna lapsesi mielikuvituksen lent\u00e4\u00e4 omassa huoneessaan! Meid\u00e4n valikoimamme tarjoaa kaikkea, mit\u00e4 tarvitaan.",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Katso kaikki",
+                                "url": ""
+                            },
+                            "listType": "recent",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "",
+                                "name": ""
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "",
+                                "name": ""
+                            },
+                            "productAmount": "8",
+                            "customDisplayInformation": false,
+                            "productPerRow": "3",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": true,
+                            "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "link",
+                            "carouselStyle": "2",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "on",
+                            "carouselAutoplaySpeed": "5",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "6e7c61022b837fc7682182eca54c8de7",
+                        "title": "Tuotekaruselli",
+                        "name": "product-carousel",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Luo oppimista tukevia leikkej\u00e4",
+                            "sectionSubtitle": "Valitse laajasta leluvalikoimastamme tuotteet, jotka rohkaisevat oppimista ja kehityst\u00e4 leikin kautta.",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Katso kaikki",
+                                "url": ""
+                            },
+                            "listType": "recent",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "",
+                                "name": ""
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "",
+                                "name": ""
+                            },
+                            "productAmount": "8",
+                            "customDisplayInformation": false,
+                            "productPerRow": "3",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": true,
+                            "showVariants": true,
+                            "showPromotionSlide": false,
+                            "promotionText": "",
+                            "promotionLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "promotionTextColor": "#ffffff",
+                            "promotionImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "promotionImgDimming": "20",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "link",
+                            "carouselStyle": "2",
+                            "carouselNavigation": "hover",
+                            "carouselPagination": "on",
+                            "carouselAutoplaySpeed": "5",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "d19f79eac5137a58ce8796d0cde80bbf",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Suosittua juuri nyt",
+                            "sectionSubtitle": " Tutustu suosituimpiin tuotteisiimme \u2013 n\u00e4it\u00e4 kaikki ostavat juuri nyt!",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "center",
+                            "sectionHeaderFontSizeScale": "1.1",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "0fa65958fc43a2298988cb5f2d7e66c6",
+                        "title": "Mainoskollaasi",
+                        "name": "promotion-collage",
+                        "settings": {
+                            "collageLayout": "2",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "imgAspectRatio": "16:9",
+                            "sectionHeaderTextAlign": "center",
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "end",
+                            "btnStyle": "nil",
+                            "imgDimming": "0",
+                            "imgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#f5f5f5",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1619044184157-ac27e414c532?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyM3x8a2lkcyUyMHJvb218ZW58MHwwfDF8fDE3MTUxMDY0MDR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1619044184157-ac27e414c532?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyM3x8a2lkcyUyMHJvb218ZW58MHwwfDF8fDE3MTUxMDY0MDR8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "2560",
+                                                "height": "3840"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1610814546844-91063bfed655?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8d29vZGVuJTIwdG95c3xlbnwwfDB8MXx8MTcxNTEwNTkwN3ww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1610814546844-91063bfed655?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxM3x8d29vZGVuJTIwdG95c3xlbnwwfDB8MXx8MTcxNTEwNTkwN3ww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "2553",
+                                                "height": "3840"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1505003098838-83ce5356c228?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHx3b29kZW4lMjB0b3lzfGVufDB8MHwxfHwxNzE1MTA1OTA3fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1505003098838-83ce5356c228?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHx3b29kZW4lMjB0b3lzfGVufDB8MHwxfHwxNzE1MTA1OTA3fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "2560",
+                                                "height": "3840"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "1318417319946211": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1554727225-ee66ff0a1bc5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxMXx8YmlydGhkYXl8ZW58MHwwfDF8fDE3MTUwOTI4NTh8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1554727225-ee66ff0a1bc5?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxMXx8YmlydGhkYXl8ZW58MHwwfDF8fDE3MTUwOTI4NTh8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "2805",
+                                                "height": "3840"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "8553285446493293": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1509512693283-8178ed23e04c?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1509512693283-8178ed23e04c?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "4047",
+                                                "height": "3047"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "9ea7247df4bab8583bd4c006eda7d402",
+                        "title": "Mainoskollaasi",
+                        "name": "promotion-collage",
+                        "settings": {
+                            "collageLayout": "4",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "imgAspectRatio": "1:1",
+                            "sectionHeaderTextAlign": "nil",
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "end",
+                            "btnStyle": "nil",
+                            "imgDimming": "0",
+                            "imgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#f5f5f5",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1557124816-e9b7d5440de2?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw2fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1557124816-e9b7d5440de2?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw2fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "5760",
+                                                "height": "3840"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1549588974-98aae09c3845?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8a2lkJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0ODMwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1549588974-98aae09c3845?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8a2lkJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0ODMwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "4032",
+                                                "height": "3024"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "image",
+                                        "settings": {
+                                            "overline": "",
+                                            "title": "",
+                                            "subtitle": "",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Shoppaile nyt",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "https:\/\/images.unsplash.com\/photo-1573918436949-9b53c9533d0f?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "src": "https:\/\/images.unsplash.com\/photo-1573918436949-9b53c9533d0f?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "4032",
+                                                "height": "3024"
+                                            },
+                                            "colorScheme": "#ffffff"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "66ddef3b3c755a00c19a96c54d8b3926",
+                        "title": "Logolista",
+                        "name": "logo-showcase",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Selaile tuotemerkkej\u00e4",
+                            "sectionSubtitle": "",
+                            "colPerRow": "8",
+                            "sectionHeaderTextAlign": "center",
+                            "logoAlign": "center",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "1",
+                            "sectionPaddingBottom": "6",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/logo-aurora-black.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/logo-aurora-black.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "217",
+                                                "height": "735"
+                                            },
+                                            "imgScaleRatio": "0.7"
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-logo.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/nova-logo.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "457",
+                                                "height": "618"
+                                            },
+                                            "imgScaleRatio": "0.6"
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/bloom-logo.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "152",
+                                                "height": "494"
+                                            },
+                                            "imgScaleRatio": "0.7"
+                                        }
+                                    },
+                                    "1318417319946211": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/celesta-logo-black.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/celesta-logo-black.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "233",
+                                                "height": "538"
+                                            },
+                                            "imgScaleRatio": "0.7"
+                                        }
+                                    },
+                                    "8553285446493293": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/wave-logo.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/wave-logo.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "123",
+                                                "height": "505"
+                                            },
+                                            "imgScaleRatio": "0.7"
+                                        }
+                                    },
+                                    "3953914839908886": {
+                                        "type": "image",
+                                        "settings": {
+                                            "img": {
+                                                "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/veloura-logo.png",
+                                                "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/veloura-logo.png",
+                                                "offset_top": "50",
+                                                "offset_left": "50",
+                                                "width": "109",
+                                                "height": "502"
+                                            },
+                                            "imgScaleRatio": "0.7"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "215f77ab883a356ccb9bf16b14ecfbee",
+                        "title": "Uutiskirje",
+                        "name": "newsletter",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Tilaa uutiskirjeemme",
+                            "sectionSubtitle": "",
+                            "richtext": "<p>Liity sis\u00e4piiriin ja saa ensimm\u00e4isen\u00e4 tietoa kaupan uutuuksista, tarjouksista ja ajankohtaisista tapahtumista.<\/p>",
+                            "sectionHighlightItems": "nil",
+                            "sectionTextAlign": "center",
+                            "showSocialMediaIcons": false,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "custom",
+                            "style_custom_color": "#f5f5f5",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "2",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "5efed04481fd309695e0afbce4b6e208",
                         "title": "Kuvakkeet tekstin kanssa",
                         "name": "icons-with-text",
                         "settings": {
                             "orientation": "horizontal",
                             "sectionOverline": "",
                             "sectionTitle": "",
-                            "sectionSubtitle": "",
-                            "sectionContainer": "fair",
+                            "sectionSubtitle": " Nauti aina parhaista eduista, kun teet ostoksia meill\u00e4!",
+                            "sectionContainer": "compact",
                             "sectionTextAlign": "center",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
-                            "sectionColorScheme": "secondary",
+                            "sectionColorScheme": "custom",
+                            "style_custom_color": "#f5f5f5",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -493,8 +1330,8 @@
                             "sectionBgImgDimming": "0",
                             "sectionBgImgBlur": "0",
                             "setting_blocks": {
-                                "items": [
-                                    {
+                                "items": {
+                                    "3136312542826423": {
                                         "type": "text",
                                         "settings": {
                                             "iconFormat": "svg",
@@ -508,10 +1345,10 @@
                                             },
                                             "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><g><path d=\"M19.67,14.87h1.51c.52-.04.91-.49.88-1.01v-7.47c.09-1.56-1.08-2.9-2.64-3.03h-5.27v11.5\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M19.67,14.87c0-1.19-.97-2.16-2.16-2.16s-2.16.97-2.16,2.16h0c0,1.19.97,2.16,2.16,2.16,1.19,0,2.16-.97,2.16-2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M8.41,14.87c0-1.19-.97-2.16-2.16-2.16s-2.16.97-2.16,2.16.97,2.16,2.16,2.16,2.16-.97,2.16-2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M17.03,3.37v3.47s0,.03,0,.04c.01.45.38.81.83.79h4.2\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M8.41,14.87h6.95\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M19.71,11.03h2.36\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M.5,1.94c0-.79.64-1.44,1.44-1.44h10.78c.79,0,1.44.64,1.44,1.44v8.14s-13.66,0-13.66,0V1.94Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><path d=\"M.5,10.07v3.35c0,.79.64,1.44,1.44,1.44h2.16\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"\/><\/g><\/svg>",
                                             "title": "Toimitus",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "richtext": "<p>Ilmainen toimitus<\/p>"
                                         }
                                     },
-                                    {
+                                    "1485272252048968": {
                                         "type": "text",
                                         "settings": {
                                             "iconFormat": "svg",
@@ -525,10 +1362,10 @@
                                             },
                                             "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"m5.03125 20.840875 -4.3125 -4.3125 4.3125 -4.3125\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M0.71875 16.528375h14.375a7.1875 7.1875 0 0 0 0 -14.375h-5.75\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
                                             "title": "Palautus",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "richtext": "<p>Ilmainen palautus<\/p>"
                                         }
                                     },
-                                    {
+                                    "3497938686528596": {
                                         "type": "text",
                                         "settings": {
                                             "iconFormat": "svg",
@@ -542,66 +1379,78 @@
                                             },
                                             "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"M4.3125 17.25h-0.71875a2.875 2.875 0 0 1 -2.875 -2.875v-2.875a2.875 2.875 0 0 1 2.875 -2.875h0.71875a0.71875 0.71875 0 0 1 0.71875 0.71875v7.1875a0.71875 0.71875 0 0 1 -0.71875 0.71875Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M19.40625 17.25h-0.71875a0.71875 0.71875 0 0 1 -0.71875 -0.71875v-7.1875A0.71875 0.71875 0 0 1 18.6875 8.625h0.71875a2.875 2.875 0 0 1 2.875 2.875v2.875a2.875 2.875 0 0 1 -2.875 2.875Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M3.59375 8.625A7.90625 7.90625 0 0 1 11.5 0.71875h0A7.90625 7.90625 0 0 1 19.40625 8.625\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M14.375 20.84375h2.15625a2.875 2.875 0 0 0 2.875 -2.875h0V17.25\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"M12.9375 22.28125H11.5a1.4375 1.4375 0 0 1 -1.4375 -1.4375h0a1.4375 1.4375 0 0 1 1.4375 -1.4375h1.4375a1.4375 1.4375 0 0 1 1.4375 1.4375h0a1.4375 1.4375 0 0 1 -1.4375 1.4375Z\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
                                             "title": "Asiakaspalvelu",
-                                            "richtext": "<p>Kirjoita t\u00e4h\u00e4n lyhyt kuvaus.<\/p>"
+                                            "richtext": "<p>Kehuttua palvelua<\/p>"
+                                        }
+                                    },
+                                    "1318417319946211": {
+                                        "type": "text",
+                                        "settings": {
+                                            "iconFormat": "svg",
+                                            "img": {
+                                                "string_value": "",
+                                                "src": "",
+                                                "offset_top": "",
+                                                "offset_left": "",
+                                                "width": "",
+                                                "height": ""
+                                            },
+                                            "svgContent": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"-0.5 -0.5 24 24\"><path d=\"M2.15625 3.59375h18.6875s1.4375 0 1.4375 1.4375v12.9375s0 1.4375 -1.4375 1.4375H2.15625s-1.4375 0 -1.4375 -1.4375V5.03125s0 -1.4375 1.4375 -1.4375\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m0.71875 7.90625 21.5625 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m5.03125 12.21875 7.90625 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><path d=\"m5.03125 15.09375 5.03125 0\" fill=\"none\" stroke=\"currentcolor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"><\/path><\/svg>",
+                                            "title": "Maksutavat",
+                                            "richtext": "<p>Parhaat maksutavat<\/p>"
                                         }
                                     }
-                                ]
+                                }
                             }
                         },
                         "blocks": []
                     },
                     {
-                        "id": "fd154bd5898ba179202c799f12378bf5",
-                        "title": "Tuotekaruselli",
-                        "name": "product-carousel",
+                        "id": "6cb53cd0b2881011968290922b533266",
+                        "title": "Kuvia tekstin kanssa",
+                        "name": "images-with-text",
                         "settings": {
                             "sectionOverline": "",
-                            "sectionTitle": "Uudet tulokkaat",
+                            "sectionTitle": "Liity Kanta-asiakasohjelmaamme!",
                             "sectionSubtitle": "",
-                            "sectionQuickLinkResource": {
+                            "richtext": "<p>Liity nyt ja aloita alennusten ker\u00e4\u00e4minen heti! Kanta-asiakkaanamme saat eksklusiivisia alennuksia, ennakkotietoa uutuuksista ja paljon muuta.<\/p>",
+                            "btnLink": {
                                 "type": "url",
                                 "record_id": "",
-                                "text": "",
-                                "url": ""
-                            },
-                            "listType": "recent",
-                            "tagId": "",
-                            "category": {
-                                "type": "category",
-                                "id": "",
-                                "name": ""
-                            },
-                            "manufacturer": {
-                                "type": "manufacturer",
-                                "id": "",
-                                "name": ""
-                            },
-                            "productAmount": "8",
-                            "customDisplayInformation": false,
-                            "productPerRow": "3",
-                            "showProductName": true,
-                            "showManufacturer": true,
-                            "showPromotion": true,
-                            "showPricing": true,
-                            "showRating": true,
-                            "showNewBadge": true,
-                            "showPromotionBadge": true,
-                            "showDiscountBadge": true,
-                            "showOutOfStockBadge": true,
-                            "showAddToCart": true,
-                            "showStockBalance": true,
-                            "showVariants": true,
-                            "showPromotionSlide": false,
-                            "promotionText": "",
-                            "promotionLinkResource": {
-                                "type": "url",
-                                "record_id": "",
-                                "text": "",
+                                "text": "Liity t\u00e4st\u00e4",
                                 "url": "",
                                 "target": "_self"
                             },
-                            "promotionTextColor": "#ffffff",
-                            "promotionImg": {
+                            "img1": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1557124804-02804b599cf2?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyN3x8a2lkcyUyMHJvb218ZW58MHwwfDF8fDE3MTUxMDU4MDN8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1557124804-02804b599cf2?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyN3x8a2lkcyUyMHJvb218ZW58MHwwfDF8fDE3MTUxMDU4MDN8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "2560",
+                                "height": "3840"
+                            },
+                            "img2": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1560506840-ec148e82a604?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhlc3xlbnwwfHwxfHwxNzE1MDkzNTgxfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1560506840-ec148e82a604?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhlc3xlbnwwfHwxfHwxNzE1MDkzNTgxfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "2560",
+                                "height": "3840"
+                            },
+                            "sectionHighlightItems": "nil",
+                            "sectionTextAlign": "nil",
+                            "btnStyle": "primary",
+                            "imgAspectRatio": "1:1",
+                            "imgFit": true,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
                                 "string_value": "",
                                 "src": "",
                                 "offset_top": "",
@@ -609,18 +1458,500 @@
                                 "width": "",
                                 "height": ""
                             },
-                            "promotionImgDimming": "20",
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "4401e3f1dd0ed3fd33589ee3b23c178b",
+                        "title": "Suosittelukaruselli",
+                        "name": "testimonial-carousel",
+                        "settings": {
+                            "sectionInnerGap": "5rem",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "carouselItemsPerView": "3",
                             "sectionHighlightItems": "nil",
-                            "sectionTextAlign": "nil",
-                            "sectionQuickLinkStyle": "nil",
-                            "carouselStyle": "2",
+                            "sectionTextAlign": "start",
+                            "imgShape": "default",
+                            "imgFit": true,
+                            "showQuotes": true,
+                            "carouselStyle": "1",
                             "carouselNavigation": "hover",
                             "carouselPagination": "on",
-                            "carouselAutoplaySpeed": "5",
+                            "carouselAutoplaySpeed": "0",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>T\u00e4m\u00e4 verkkokauppa on pelastus kiireiselle vanhemmalle. Sisustustuotteet ovat sek\u00e4 kauniita ett\u00e4 k\u00e4yt\u00e4nn\u00f6llisi\u00e4, ja ilmaiset toimitukset tekev\u00e4t ostamisesta vaivatonta. Aina l\u00f6ytyy jotain uutta ja ihanaa!<\/p>",
+                                            "author": "Marja ",
+                                            "authorInfo": "Helsinki",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "",
+                                                "src": "",
+                                                "offset_top": "",
+                                                "offset_left": "",
+                                                "width": "",
+                                                "height": ""
+                                            }
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>Jokainen ostos on mennyt nappiin! Lapseni rakastavat v\u00e4rikk\u00e4it\u00e4 ja mukavia vaatteitaan, ja olen itse tyytyv\u00e4inen niiden laatuun ja kest\u00e4vyyteen. Plussaa my\u00f6s siit\u00e4, ett\u00e4 &nbsp;ovat ymp\u00e4rist\u00f6yst\u00e4v\u00e4llisi\u00e4.<\/p>",
+                                            "author": "Liisa",
+                                            "authorInfo": "Tampere",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "",
+                                                "src": "",
+                                                "offset_top": "",
+                                                "offset_left": "",
+                                                "width": "",
+                                                "height": ""
+                                            }
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "text",
+                                        "settings": {
+                                            "heading": "",
+                                            "description": "<p>Suosittelen t\u00e4t\u00e4 kauppaa kaikille vanhemmille! Etsin ekologisia ja turvallisia leluja, ja l\u00f6ysin t\u00e4\u00e4lt\u00e4 juuri mit\u00e4 tarvitsin. Lis\u00e4ksi asiakaspalvelu vastasi nopeasti kaikkiin kysymyksiini. Todella luotettava ja asiakasyst\u00e4v\u00e4llinen verkkokauppa.<\/p>",
+                                            "author": "Sami ",
+                                            "authorInfo": "Riihim\u00e4ki",
+                                            "resource": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "url": "",
+                                                "target": "_self"
+                                            },
+                                            "img": {
+                                                "string_value": "",
+                                                "src": "",
+                                                "offset_top": "",
+                                                "offset_left": "",
+                                                "width": "",
+                                                "height": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "af419466a9818eb7e502be74325b09ae",
+                        "title": "Painikkeet",
+                        "name": "buttons",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "sectionContainer": "nil",
+                            "sectionTextAlign": "center",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "text",
+                                        "settings": {
+                                            "btnStyle": "primary",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Luo tili ja liity kanta-asiakkaaksi",
+                                                "url": "",
+                                                "target": "_self"
+                                            }
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "text",
+                                        "settings": {
+                                            "btnStyle": "primary",
+                                            "btnLink": {
+                                                "type": "url",
+                                                "record_id": "",
+                                                "text": "Katso kaikki tuotteet",
+                                                "url": "",
+                                                "target": "_self"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "blog": {
+                "sections": [
+                    {
+                        "name": "blog-template",
+                        "id": "blog-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "product": {
+                "sections": [
+                    {
+                        "name": "product-template",
+                        "id": "product-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "category": {
+                "sections": [
+                    {
+                        "name": "category-template",
+                        "id": "category-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "catalog": {
+                "sections": [
+                    {
+                        "name": "catalog-template",
+                        "id": "catalog-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "manufacturer": {
+                "sections": [
+                    {
+                        "name": "manufacturer-template",
+                        "id": "manufacturer-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "article": {
+                "sections": [
+                    {
+                        "name": "article-template",
+                        "id": "article-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "search": {
+                "sections": [
+                    {
+                        "name": "search-template",
+                        "id": "search-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            },
+            "404": {
+                "sections": [
+                    {
+                        "name": "404-template",
+                        "id": "404-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
+            }
+        },
+        "pages": {
+            "186403": {
+                "sections": [
+                    {
+                        "id": "ee8d133c726363e0904202ea8c5df7f8",
+                        "title": "Otsikko",
+                        "name": "heading",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Usein kysytty\u00e4",
+                            "sectionSubtitle": "Yleisi\u00e4 kysymyksi\u00e4 ja vastauksia tuotteista ja verkkokaupasta tilaamisesta.",
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "7",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "162ea054ec06defb86315c37775f64dd",
+                        "title": "V\u00e4lilehdet kuvalla",
+                        "name": "accordion-tabs",
+                        "settings": {
+                            "accordionLayout": "2",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1496180727794-817822f65950",
+                                "src": "https:\/\/images.unsplash.com\/photo-1496180727794-817822f65950",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "1080",
+                                "height": "1080"
+                            },
+                            "includeFaqSchema": false,
+                            "sectionContainer": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "imgPosition": "start",
+                            "imgAspectRatio": "1:1",
+                            "imgFit": true,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "setting_blocks": {
+                                "items": {
+                                    "3136312542826423": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "1. Mist\u00e4 voin tarkistaa tuotteen saatavuuden?",
+                                            "richtext": "<p>Voit tarkistaa tuotteen saatavuuden suoraan tuotteen sivulta verkkokaupassamme. Jos tuote on loppunut, voit halutessasi tilata ilmoituksen, kun tuotetta on j\u00e4lleen saatavilla.<\/p>"
+                                        }
+                                    },
+                                    "1485272252048968": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "2. Kuinka voin tehd\u00e4 tilauksen? ",
+                                            "richtext": "<p>Tee tilaus valitsemalla haluamasi tuotteet, lis\u00e4\u00e4m\u00e4ll\u00e4 ne ostoskoriin ja siirtym\u00e4ll\u00e4 kassalle. T\u00e4yt\u00e4 tarvittavat tiedot toimitusta ja maksua varten ja vahvista tilaus.<\/p>"
+                                        }
+                                    },
+                                    "3497938686528596": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "3. Mitk\u00e4 maksutavat ovat k\u00e4yt\u00f6ss\u00e4?  ",
+                                            "richtext": "<p>Hyv\u00e4ksymme useita maksutapoja, mukaan lukien luottokortit, verkkopankkimaksut, mobiilimaksut ja jotkut kolmannen osapuolen maksupalvelut kuten PayPal.<\/p>"
+                                        }
+                                    },
+                                    "1318417319946211": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "4. Onko verkkokaupassanne turvallista asioida?",
+                                            "richtext": "<p>Kyll\u00e4, turvallisuutesi on meille ensiarvoisen t\u00e4rke\u00e4\u00e4. K\u00e4yt\u00e4mme alan standardin mukaisia salausmenetelmi\u00e4 varmistaaksemme henkil\u00f6tietojesi ja maksutietojesi suojan.<\/p>"
+                                        }
+                                    },
+                                    "8553285446493293": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "5. Kuinka nopeasti tilaukseni toimitetaan?",
+                                            "richtext": "<p id=\"isPasted\">Tilausten toimitusaika vaihtelee valitsemasi toimitustavan mukaan, mutta pyrimme toimittamaan tilaukset 3-5 arkip\u00e4iv\u00e4n kuluessa. Express-toimitusvaihtoehtoja on saatavilla nopeampaa toimitusta varten.<\/p>"
+                                        }
+                                    },
+                                    "887371fd-3ad0-49b8-a12f-b3074e974908": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "6. Voinko palauttaa tai vaihtaa tilaamani tuotteen?",
+                                            "richtext": "<p id=\"isPasted\">Kyll\u00e4, tarjoamme 30 p\u00e4iv\u00e4n palautusoikeuden. Tuotteen tulee olla palautettaessa myyntikelpoisessa kunnossa alkuper\u00e4ispakkauksineen. Palautuksen yksityiskohdat l\u00f6ytyv\u00e4t verkkokauppamme palautusehdoista.<\/p>"
+                                        }
+                                    },
+                                    "c16ed629-7a2e-4a95-aeab-ec41dd387391": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "7. Miten voin seurata tilaukseni toimitusta?",
+                                            "richtext": "<p id=\"isPasted\">Kun tilauksesi on l\u00e4hetetty, saat s\u00e4hk\u00f6postitse seurantanumeron, jonka avulla voit seurata pakettisi kulkua verkkokauppamme tai kuljetusyrityksen verkkosivustolla.<\/p>"
+                                        }
+                                    },
+                                    "9b9d484a-7e95-44fa-83d3-e59b0e2f22f0": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "8. Mit\u00e4 teen, jos tuote on viallinen saapuessaan?",
+                                            "richtext": "<p id=\"isPasted\">Jos vastaanottamasi tuote on viallinen, ota v\u00e4litt\u00f6m\u00e4sti yhteytt\u00e4 asiakaspalveluumme. Korvaamme viallisen tuotteen tai palautamme rahasi tilanteen mukaan.<\/p>"
+                                        }
+                                    },
+                                    "03dd5426-2de4-46e9-b33e-c747f8449aaf": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "9. Kuinka voin ottaa yhteytt\u00e4 asiakaspalveluun?",
+                                            "richtext": "<p id=\"isPasted\">Asiakaspalveluumme voi ottaa yhteytt\u00e4 s\u00e4hk\u00f6postitse, puhelimitse tai live-chatin kautta. Yhteystiedot l\u00f6ytyv\u00e4t verkkokauppamme \"Ota yhteytt\u00e4\" -sivulta.<\/p>"
+                                        }
+                                    },
+                                    "f8912cc1-eae0-4574-80c9-332a105535a6": {
+                                        "type": "text",
+                                        "settings": {
+                                            "title": "10. Onko teill\u00e4 kanta-asiakasohjelmaa ja miten voin liitty\u00e4 siihen?",
+                                            "richtext": "<p id=\"isPasted\">Kyll&auml;, meill&auml; on kanta-asiakasohjelma, joka palkitsee uskolliset asiakkaat erikoiseduin ja tarjouksin. Voit liitty&auml; ohjelmaan rekister&ouml;itym&auml;ll&auml; verkkokauppamme k&auml;ytt&auml;j&auml;ksi ja seuraamalla ohjeita, jotka l&ouml;yd&auml;t &quot;Kanta-asiakasohjelma&quot; -sivultamme.<\/p>",
+                                            "type": "text"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "186408": {
+                "sections": [
+                    {
+                        "id": "a768590e67551252885ab38ac619fe21",
+                        "title": "Hero",
+                        "name": "hero",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Ota yhteytt\u00e4",
+                            "sectionSubtitle": "Olemme t\u00e4\u00e4ll\u00e4 auttaaksemme sinua",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1573918436949-9b53c9533d0f?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1573918436949-9b53c9533d0f?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "4032",
+                                "height": "3024"
+                            },
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h1",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "light",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "45"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "bb7b8bae4e91137c32d171ac6af84325",
+                        "title": "Yhteydenotto",
+                        "name": "contact",
+                        "settings": {
+                            "contactLayout": "1",
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "richtext": "<p>T&auml;yt&auml; alla oleva lomake, niin otamme sinuun yhteytt&auml; mahdollisimman pian.<\/p>",
+                            "sectionHighlightItems": "nil",
+                            "sectionContainer": "compact",
+                            "sectionTextAlign": "nil",
+                            "showPhonenumber": false,
+                            "showSubject": false,
+                            "showSocialMediaIcons": false,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -637,29 +1968,224 @@
                             "sectionBgImgBlur": "0"
                         },
                         "blocks": []
+                    }
+                ]
+            },
+            "186413": {
+                "sections": [
+                    {
+                        "id": "8c038b21076682ee96424793ee8f0007",
+                        "title": "Hero",
+                        "name": "hero",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Tervetuloa Bloom Kanta-asiakasohjelmaan!",
+                            "sectionSubtitle": "Bloom Kanta-asiakasohjelmassa palkitsemme uskollisia asiakkaitamme ainutlaatuisilla eduilla ja tarjouksilla. Liittym\u00e4ll\u00e4 ohjelmaamme saat etuja, jotka tekev\u00e4t ostokokemuksestasi viel\u00e4kin paremman ja henkil\u00f6kohtaisemman.",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Liity nyt",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1572540998592-5f2827735619?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1572540998592-5f2827735619?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwzfHxraWQlMjByb29tfGVufDB8fDF8fDE3MTU1OTQ4MzB8MA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "63",
+                                "offset_left": "36",
+                                "width": "3662",
+                                "height": "2449"
+                            },
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionBgImgDimming": "10",
+                            "sectionBgImgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "60"
+                        },
+                        "blocks": []
                     },
                     {
-                        "id": "4049c40565f1603627cf2b49ae708f0c",
-                        "title": "Tekstisarakkeet",
-                        "name": "text-columns",
+                        "id": "318f1c79ef7984eba705fb3a566563df",
+                        "title": "Teksti",
+                        "name": "text",
                         "settings": {
-                            "orientation": "horizontal",
+                            "richtext": "<h2>Miten liitty\u00e4 Bloom kanta-asiakasohjelmaan<\/h2><p>Liittyminen on helppoa ja t\u00e4ysin ilmaista! Rekister\u00f6idy vain verkkokauppamme k\u00e4ytt\u00e4j\u00e4ksi ja valitse liitty\u00e4 kanta-asiakasohjelmaamme. Sinun tarvitsee vain t\u00e4ytt\u00e4\u00e4 tarvittavat tiedot, ja p\u00e4\u00e4set nauttimaan j\u00e4senyyden eduista heti.<\/p><p><br><\/p><h2>Edut j\u00e4senillemme<\/h2><p><strong>1. Eksklusiiviset alennukset:<\/strong><\/p><p>&nbsp; &nbsp;J\u00e4senen\u00e4 saat s\u00e4\u00e4nn\u00f6llisesti eksklusiivisia alennuksia, jotka ovat saatavilla vain kanta-asiakasohjelman j\u00e4senille.<\/p><p><strong>2. Syntym\u00e4p\u00e4iv\u00e4bonukset:<\/strong><\/p><p>&nbsp; &nbsp;Juhli syntym\u00e4p\u00e4iv\u00e4\u00e4si erityisell\u00e4 alennuskoodilla, jonka l\u00e4het\u00e4mme sinulle joka vuosi.<\/p><p><strong>3. Ennakkotiedot uutuuksista ja kampanjoista:<\/strong><\/p><p>&nbsp; &nbsp;Saat ensimm\u00e4isten joukossa tietoa uusista tuotteista ja tulevista kampanjoista, varmistaen ett\u00e4 et j\u00e4\u00e4 paitsi rajoitetun ajan tarjouksista.<\/p><p><strong>4. Kutsut erikoistapahtumiin:<\/strong><\/p><p>&nbsp; &nbsp;Kutsuja verkkokaupan j\u00e4rjest\u00e4miin erikoistapahtumiin, kuten tuotelanseerauksiin ja asiakasiltoihin.<\/p><p><strong>5. Pistej\u00e4rjestelm\u00e4:<\/strong><\/p><p>&nbsp; &nbsp;Ansaitse pisteit\u00e4 jokaisesta ostoksestasi, jotka voit muuttaa alennuksiksi tai k\u00e4ytt\u00e4\u00e4 tulevien ostosten yhteydess\u00e4.<\/p><p><strong>6. Ilmaiset toimitukset ja palautukset:<\/strong><\/p><p>&nbsp; &nbsp;Nauti ilmaisista toimituksista ja palautuksista jokaiseen tilaukseesi.<\/p><p><br><\/p><h2>Usein kysytyt kysymykset (UKK)<\/h2><p><br><\/p><p><strong>Miten voin tarkastaa pistesaldoni?<\/strong><br>Kirjaudu sis\u00e4\u00e4n verkkokauppaamme, ja l\u00f6yd\u00e4t pistesaldosi k\u00e4ytt\u00e4j\u00e4tilisi yhteydest\u00e4.<\/p><p><strong>Voinko k\u00e4ytt\u00e4\u00e4 pisteit\u00e4ni ja alennuskoodia samanaikaisesti?<br><\/strong>Kyll\u00e4, Bloom Kanta-asiakasohjelmassa voit yhdist\u00e4\u00e4 pisteit\u00e4 ja alennuskoodeja, jolloin s\u00e4\u00e4st\u00e4t viel\u00e4 enemm\u00e4n.<\/p><p><strong>Miten voin peruuttaa kanta-asiakkuuteni?<br><\/strong>Jos haluat peruuttaa kanta-asiakkuutesi, ota yhteytt\u00e4 asiakaspalveluumme, niin autamme sinua prosessissa.<\/p><p><br><\/p><h2>Liity nyt!<\/h2><p>Kutsu on avoinna: liity Bloom Kanta-asiakasohjelmaan t\u00e4n\u00e4\u00e4n ja aloita matkasi kohti eksklusiivisia etuja ja palkintoja. J\u00e4senen\u00e4 p\u00e4\u00e4set osaksi yhteis\u00f6\u00e4, joka arvostaa laatua ja kest\u00e4vyytt\u00e4 yht\u00e4 paljon kuin sin\u00e4.&nbsp;<\/p><p>Tule mukaan ja koe, kuinka palkitsevaa asiakkuus meill\u00e4 voi olla!<\/p>",
+                            "sectionContainer": "compact",
+                            "sectionTextAlign": "nil",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "186418": {
+                "sections": [
+                    {
+                        "id": "8e2714274d9be925152d10f598cdafeb",
+                        "title": "Hero",
+                        "name": "hero",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Meist\u00e4",
+                            "sectionSubtitle": "Perheyrityksen tarina vuodesta 1976",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1573297663823-b4d453566b32?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNTgwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1573297663823-b4d453566b32?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfDB8MXx8MTcxNTEwNTgwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "2560",
+                                "height": "3840"
+                            },
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h1",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "light",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "45"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "9cce56d664bc4a2e6bbf8599cc66ef09",
+                        "title": "Kuva tekstin kanssa",
+                        "name": "image-with-text",
+                        "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "",
                             "sectionSubtitle": "",
-                            "colPerRow": "2",
+                            "richtext": "<p id=\"isPasted\">Bloom on lasten vaatteita, leluja ja sisustustuotteita myyv\u00e4 yritys, joka on toiminut Helsingiss\u00e4 jo vuodesta 1976 l\u00e4htien. Tarinamme alkoi pienest\u00e4 kivijalkaliikkeest\u00e4, jonka perustivat Annikki ja Juha Korhonen, innostuneina luomaan jotain kaunista ja kest\u00e4v\u00e4\u00e4 suomalaisille perheille. Alun perin he keskittyiv\u00e4t k\u00e4sintehtyihin puisiin leluihin, mutta vuosien saatossa valikoima laajeni kattamaan my\u00f6s lastenvaatteet ja kodin sisustustuotteet.<\/p><p>Vuonna 1998 teimme suuren muutoksen siirtyess\u00e4mme t\u00e4ysin verkkokauppaan, joka mahdollisti tuotteidemme tarjoamisen laajemmalle yleis\u00f6lle Suomessa ja kansainv\u00e4lisesti. Vaikka fyysinen liiketilamme sulkeutui, s\u00e4ilytimme varastomyym\u00e4l\u00e4mme Helsingiss\u00e4, josta asiakkaat voivat edelleen noutaa tilaamansa tuotteet.<\/p>",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1549588974-98aae09c3845?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8a2lkJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0ODMwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1549588974-98aae09c3845?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwxNXx8a2lkJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0ODMwfDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "4032",
+                                "height": "3024"
+                            },
+                            "rowLayout": "4,8",
                             "sectionHighlightItems": "nil",
-                            "sectionContainer": "nil",
-                            "sectionTextAlign": "center",
+                            "sectionHeaderTextAlign": "nil",
+                            "textHorizontalAlign": "nil",
+                            "textVerticalAlign": "center",
                             "btnStyle": "nil",
-                            "imgAspectRatio": "16:9",
-                            "imgScaleRatio": "1",
-                            "imgAlign": "center",
+                            "imgPosition": "start",
+                            "imgHorizontalAlign": "center",
+                            "imgVerticalAlign": "center",
+                            "imgAspectRatio": "1:1",
                             "imgFit": true,
+                            "imgEffect": true,
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "5",
+                            "sectionPaddingBottom": "0",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "4dab7ad683b526cae1a696e3f3291818",
+                        "title": "Kuva tekstin kanssa",
+                        "name": "image-with-text",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "",
+                            "sectionSubtitle": "",
+                            "richtext": "<p id=\"isPasted\">Perheyrityksen\u00e4 Bloom on aina panostanut tuotteidensa laatuun ja kest\u00e4vyyteen. Erityisesti puiset lelut ovat syd\u00e4memme asia, ja niiden valmistuksessa k\u00e4yt\u00e4mme vain ekologisesti tuotettua puuta. T\u00e4m\u00e4 ei ainoastaan varmista lelujen turvallisuutta ja kest\u00e4vyytt\u00e4, vaan my\u00f6s tukee kest\u00e4v\u00e4\u00e4 kehityst\u00e4 ja ymp\u00e4rist\u00f6n hyvinvointia.<\/p><p>Vuonna 2022 juhlistimme yrityksemme 46-vuotista taivalta uudistamalla br\u00e4ndi\u00e4mme. Uusi ilme heijastaa modernia ja leikkis\u00e4\u00e4 otettamme lasten tuotteisiin, samalla kunnioittaen perinteisi\u00e4mme ja sitoutumistamme laatuun ja ekologisuuteen.&nbsp;<\/p><p>Bloom on kasvanut vuosien saatossa, mutta perusarvomme eiv\u00e4t ole muuttuneet. Pyrimme tarjoamaan tuotteita, jotka kest\u00e4v\u00e4t aikaa ja tuovat iloa sek\u00e4 lapsille ett\u00e4 heid\u00e4n vanhemmilleen. Jatkamme matkaamme luoden kest\u00e4vi\u00e4 ja inspiroivia tuotteita tuleville sukupolville, ja olemme kiitollisia jokaisesta perheest\u00e4, joka on valinnut kasvaa kanssamme.<\/p>",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "img": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1509512693283-8178ed23e04c?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1509512693283-8178ed23e04c?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHxraWRzJTIwcm9vbXxlbnwwfHwxfHwxNzE1NTk0NzQ2fDA&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "4047",
+                                "height": "3047"
+                            },
+                            "rowLayout": "8,4",
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "textHorizontalAlign": "nil",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "imgPosition": "end",
+                            "imgHorizontalAlign": "center",
+                            "imgVerticalAlign": "center",
+                            "imgAspectRatio": "1:1",
+                            "imgFit": true,
+                            "imgEffect": true,
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
@@ -673,55 +2199,7 @@
                                 "height": ""
                             },
                             "sectionBgImgDimming": "0",
-                            "sectionBgImgBlur": "0",
-                            "setting_blocks": {
-                                "items": [
-                                    {
-                                        "type": "text",
-                                        "settings": {
-                                            "title": "Otsikko",
-                                            "richtext": "<p>Lis\u00e4\u00e4 sopiva teksti jolla voit esimerkiksi keskitty\u00e4 valitsemaasi tuotteeseen, artikkeliin tai tuotemerkkiin.<\/p>",
-                                            "btnLink": {
-                                                "type": "url",
-                                                "record_id": "",
-                                                "text": "Tutustu",
-                                                "url": "",
-                                                "target": "_self"
-                                            },
-                                            "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1616666428759-679a7d578307",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1616666428759-679a7d578307",
-                                                "offset_top": "50",
-                                                "offset_left": "50",
-                                                "width": "2560",
-                                                "height": "3840"
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "type": "text",
-                                        "settings": {
-                                            "title": "Otsikko",
-                                            "richtext": "<p>Lis\u00e4\u00e4 sopiva teksti jolla voit esimerkiksi keskitty\u00e4 valitsemaasi tuotteeseen, artikkeliin tai tuotemerkkiin.<\/p>",
-                                            "btnLink": {
-                                                "type": "url",
-                                                "record_id": "",
-                                                "text": "Tutustu",
-                                                "url": "",
-                                                "target": "_self"
-                                            },
-                                            "img": {
-                                                "string_value": "https:\/\/images.unsplash.com\/photo-1622290291468-a28f7a7dc6a8",
-                                                "src": "https:\/\/images.unsplash.com\/photo-1622290291468-a28f7a7dc6a8",
-                                                "offset_top": "50",
-                                                "offset_left": "50",
-                                                "width": "2886",
-                                                "height": "3840"
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
+                            "sectionBgImgBlur": "0"
                         },
                         "blocks": []
                     }
@@ -1182,6 +2660,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1214,6 +2693,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": "secondary",
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1357,6 +2837,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
@@ -1396,6 +2877,7 @@
                                 "sectionSubtitleTag": "h3",
                                 "sectionColorScheme": false,
                                 "sectionAdditionalTitles": false,
+                                "sectionAdditionalText": false,
                                 "sectionPaddingMode": "auto",
                                 "sectionPaddingTop": "0",
                                 "sectionPaddingBottom": "0",
