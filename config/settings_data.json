@@ -315,9 +315,9 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15608323",
                                         "text": "Verkkokauppamme t\u00e4ytti 5 vuotta! - Juhlan kunniaksi p\u00e4ivitt\u00e4in vaihtuvia supertarjouksia!",
-                                        "url": "",
+                                        "url": "\/tuotteet",
                                         "target": "_self"
                                     }
                                 }
@@ -327,9 +327,9 @@
                                 "settings": {
                                     "announcementLink": {
                                         "type": "url",
-                                        "record_id": "",
+                                        "record_id": "15608323",
                                         "text": "L\u00f6yd\u00e4 kes\u00e4n hauskimmat lelut meilt\u00e4! Sukella seikkailuihin ulkona ja sis\u00e4ll\u00e4. Katso tuotteet!",
-                                        "url": "",
+                                        "url": "\/tuotteet",
                                         "target": "_self"
                                     }
                                 }
@@ -424,9 +424,9 @@
                                             "subtitle": "Sukella seikkailuihin ulkona ja sis\u00e4ll\u00e4 \u2013 t\u00e4\u00e4lt\u00e4 l\u00f6yd\u00e4t kaiken tarvittavan kes\u00e4n leikkeihin.",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -447,9 +447,9 @@
                                             "subtitle": "Inspiroi luovuutta ja j\u00e4rjest\u00e4 mukava tila leikille ja oppimiselle upeilla sisustustuotteillamme. Tutustu uusiin, ihastuttaviin sisustusideoidemme lastenhuoneisiin!",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -479,9 +479,9 @@
                             "datetime": "",
                             "btnLink": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15608323",
                                 "text": "Shoppaile nyt",
-                                "url": "",
+                                "url": "\/tuotteet",
                                 "target": "_self"
                             },
                             "sectionTextAlign": "center",
@@ -537,8 +537,8 @@
                         "settings": {
                             "product": {
                                 "type": "product",
-                                "id": "26238833",
-                                "name": "Painokuvioitu napitettava midimittainen camimekko hibiscus dot"
+                                "id": "26270623",
+                                "name": "Wooden animal activity walker"
                             },
                             "showManufacturer": true,
                             "showPromotion": true,
@@ -574,18 +574,19 @@
                             "sectionOverline": "",
                             "sectionTitle": "L\u00f6yd\u00e4 kauden trendit",
                             "sectionSubtitle": "Tutustu uusimpiin trendeihin ja klassikoihin. Meilt\u00e4 l\u00f6yd\u00e4t vaatteet, jotka kest\u00e4v\u00e4t leikin ja seikkailun.",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15613043",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/lasten-vaatteet"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1809338",
+                                "name": "Lasten vaatteet"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -640,6 +641,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
@@ -664,18 +666,19 @@
                             "sectionOverline": "",
                             "sectionTitle": "Sisusta unelmien lastenhuone",
                             "sectionSubtitle": "Anna lapsesi mielikuvituksen lent\u00e4\u00e4 omassa huoneessaan! Meid\u00e4n valikoimamme tarjoaa kaikkea, mit\u00e4 tarvitaan.",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15612323",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/sisustus"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1809293",
+                                "name": "Sisustus"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -730,6 +733,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
@@ -754,18 +758,19 @@
                             "sectionOverline": "",
                             "sectionTitle": "Luo oppimista tukevia leikkej\u00e4",
                             "sectionSubtitle": "Valitse laajasta leluvalikoimastamme tuotteet, jotka rohkaisevat oppimista ja kehityst\u00e4 leikin kautta.",
+                            "sectionDescription": "",
                             "sectionQuickLinkResource": {
                                 "type": "url",
-                                "record_id": "",
+                                "record_id": "15612448",
                                 "text": "Katso kaikki",
-                                "url": ""
+                                "url": "\/tuoteryhma\/lapset"
                             },
-                            "listType": "recent",
+                            "listType": "category",
                             "tagId": "",
                             "category": {
                                 "type": "category",
-                                "id": "",
-                                "name": ""
+                                "id": "1809298",
+                                "name": "Lasten lelut"
                             },
                             "manufacturer": {
                                 "type": "manufacturer",
@@ -820,6 +825,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "5",
@@ -877,6 +883,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "imgAspectRatio": "16:9",
                             "sectionHeaderTextAlign": "center",
                             "textHorizontalAlign": "center",
@@ -890,6 +897,7 @@
                             "sectionColorScheme": "secondary",
                             "style_custom_color": "#f5f5f5",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
@@ -913,9 +921,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -937,9 +945,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -961,9 +969,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -985,9 +993,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -1009,9 +1017,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -1039,6 +1047,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "imgAspectRatio": "1:1",
                             "sectionHeaderTextAlign": "nil",
                             "textHorizontalAlign": "center",
@@ -1052,6 +1061,7 @@
                             "sectionColorScheme": "secondary",
                             "style_custom_color": "#f5f5f5",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "custom",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "5",
@@ -1075,9 +1085,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -1099,9 +1109,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -1123,9 +1133,9 @@
                                             "subtitle": "",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Shoppaile nyt",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             },
                                             "img": {
@@ -1417,7 +1427,7 @@
                                 "type": "url",
                                 "record_id": "",
                                 "text": "Liity t\u00e4st\u00e4",
-                                "url": "",
+                                "url": "\/rekisteroidy",
                                 "target": "_self"
                             },
                             "img1": {
@@ -1585,6 +1595,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "sectionContainer": "nil",
                             "sectionTextAlign": "center",
                             "sectionOverlineTag": "h3",
@@ -1593,6 +1604,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "0",
                             "sectionPaddingBottom": "0",
@@ -1616,7 +1628,7 @@
                                                 "type": "url",
                                                 "record_id": "",
                                                 "text": "Luo tili ja liity kanta-asiakkaaksi",
-                                                "url": "",
+                                                "url": "\/rekisteroidy",
                                                 "target": "_self"
                                             }
                                         }
@@ -1627,9 +1639,9 @@
                                             "btnStyle": "primary",
                                             "btnLink": {
                                                 "type": "url",
-                                                "record_id": "",
+                                                "record_id": "15608323",
                                                 "text": "Katso kaikki tuotteet",
-                                                "url": "",
+                                                "url": "\/tuotteet",
                                                 "target": "_self"
                                             }
                                         }
