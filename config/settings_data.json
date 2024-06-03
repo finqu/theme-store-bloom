@@ -18,7 +18,7 @@
             "styleGridGutterWidth": "1.42855rem",
             "styleIconStrokeWidth": "1.5px",
             "styleFormFloatingHeight": "3rem",
-            "styleFormFloatingLineHeight": "1.25",
+            "styleFormFloatingLineHeight": "1.5",
             "styleFormFloatingPaddingY": "0.8rem",
             "styleFormFloatingPaddingX": "1rem",
             "styleFormFloatingInputPaddingT": "1.525rem",
@@ -36,7 +36,7 @@
             "styleButtonSecondaryVariant": "1",
             "styleBorderRadius": "0px",
             "styleButtonBorderRadius": "5px",
-            "styleInputBorder": false,
+            "styleInputBorder": "",
             "styleInputBorderRadius": "7px",
             "styleComponentBorderRadius": "0px",
             "styleImageBorderRadius": "0px",
@@ -145,8 +145,8 @@
             "productShowVariantOption2TaxonomyType": "size",
             "productShowVariantOption3TaxonomyType": false,
             "productShowName": true,
-            "productShowManufacturer": false,
-            "productShowPromotion": true,
+            "productShowManufacturer": true,
+            "productShowPromotion": false,
             "productShowPricing": true,
             "productShowRating": true,
             "productShowNewBadge": true,
@@ -228,7 +228,7 @@
                                 "type": "menu",
                                 "settings": {
                                     "index": "1",
-                                    "colPerRow": "5",
+                                    "colPerRow": "4",
                                     "menu": "mega",
                                     "promotion1Img": {
                                         "string_value": "https:\/\/images.unsplash.com\/photo-1601925240970-98447486fcdb?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhpbmd8ZW58MHx8MXx8MTcxNDkwNDA3OXww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
@@ -238,7 +238,7 @@
                                         "width": "3465",
                                         "height": "3465"
                                     },
-                                    "promotion1ImgAspectRatio": "4:3",
+                                    "promotion1ImgAspectRatio": "1:1",
                                     "promotion1Link": {
                                         "type": "url",
                                         "record_id": "",
@@ -288,6 +288,198 @@
                                     },
                                     "promotion4ImgAspectRatio": "4:3",
                                     "promotion4Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion5Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion5ImgAspectRatio": "16:9",
+                                    "promotion5Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    }
+                                }
+                            },
+                            "e0b7d527-8b19-4b35-b89f-71c1e47f2040": {
+                                "type": "menu",
+                                "settings": {
+                                    "index": "2",
+                                    "colPerRow": "4",
+                                    "menu": "mega-vaatteet",
+                                    "promotion1Img": {
+                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/hmgoepprod-16.jpeg",
+                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/hmgoepprod-16.jpeg",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "2304",
+                                        "height": "1536"
+                                    },
+                                    "promotion1ImgAspectRatio": "1:1",
+                                    "promotion1Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion2Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion2ImgAspectRatio": "4:3",
+                                    "promotion2Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion3Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion3ImgAspectRatio": "4:3",
+                                    "promotion3Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion4Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion4ImgAspectRatio": "4:3",
+                                    "promotion4Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion5Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion5ImgAspectRatio": "4:3",
+                                    "promotion5Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    }
+                                }
+                            },
+                            "f876604b-aa44-4c99-ad96-915e61e799ac": {
+                                "type": "menu",
+                                "settings": {
+                                    "index": "3",
+                                    "colPerRow": "4",
+                                    "menu": "mega-sisustus",
+                                    "promotion1Img": {
+                                        "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/d3de0898-4fb4-4099-8430-5eda778d0b4d_ef06f634-49cb-4165-94b5-94dcf432117e.webp",
+                                        "src": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/d3de0898-4fb4-4099-8430-5eda778d0b4d_ef06f634-49cb-4165-94b5-94dcf432117e.webp",
+                                        "offset_top": "50",
+                                        "offset_left": "50",
+                                        "width": "1590",
+                                        "height": "1600"
+                                    },
+                                    "promotion1ImgAspectRatio": "1:1",
+                                    "promotion1Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion2Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion2ImgAspectRatio": "4:3",
+                                    "promotion2Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion3Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion3ImgAspectRatio": "4:3",
+                                    "promotion3Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion4Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion4ImgAspectRatio": "4:3",
+                                    "promotion4Link": {
+                                        "type": "url",
+                                        "record_id": "",
+                                        "text": "",
+                                        "url": "",
+                                        "target": "_self"
+                                    },
+                                    "promotion5Img": {
+                                        "string_value": "",
+                                        "src": "",
+                                        "offset_top": "",
+                                        "offset_left": "",
+                                        "width": "",
+                                        "height": ""
+                                    },
+                                    "promotion5ImgAspectRatio": "4:3",
+                                    "promotion5Link": {
                                         "type": "url",
                                         "record_id": "",
                                         "text": "",
@@ -343,7 +535,7 @@
                 "name": "footer",
                 "settings": {
                     "footerTextArea1Title": "Meist\u00e4 ",
-                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit\u00e4 tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv\u00e4isyyteen pyrimme tarjoamaan sinulle uusimmat trendit, ly\u00f6m\u00e4tt\u00f6m\u00e4t hinnat ja vertaansa vailla olevan palvelun.&nbsp;<\/p>",
+                    "footerTextArea1Content": "<p>Tervetuloa verkkokauppaan! Olemme ylpeit&auml; tarjotessamme sinulle sujuvan ja ilahduttavan ostoskokemuksen. Sitoutuneina asiakastyytyv&auml;isyyteen pyrimme tarjoamaan vertaansa vailla olevan palvelun.&nbsp;<\/p>",
                     "footerTextArea2Content": "<p>\u00a9 2024 Bloom<\/p>",
                     "footerNewsletterTitle": "Uutiskirje",
                     "footerNewsletterContent": "<p>Tilaa uutiskirje saadaksesi ilmoituksia uusista tuotteista, erikoistarjouksista ja tapahtumista.<\/p>",
@@ -400,7 +592,7 @@
                             "textVerticalAlign": "center",
                             "btnStyle": "nil",
                             "sectionHeaderFontSizeScale": "1",
-                            "imgDimming": "0",
+                            "imgDimming": "25",
                             "imgBlur": "0",
                             "carouselNavigation": "",
                             "carouselPagination": "on",
@@ -410,7 +602,7 @@
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
-                            "sectionColorScheme": "light",
+                            "sectionColorScheme": "dark",
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
                             "sectionMinHeight": "75",
@@ -499,23 +691,24 @@
                         "blocks": []
                     },
                     {
-                        "id": "7f61c741dc5510b101f909cd7aee890d",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "64d53a97ee83a29f61868015ccedc00b",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "P\u00c4IV\u00c4N SUPERTARJOUS!",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "sectionContainer": "nil",
-                            "sectionHeaderTextAlign": "start",
-                            "sectionHeaderFontSizeScale": "1.1",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionHeaderFontSizeScale": "1",
                             "sectionOverlineTag": "h3",
                             "sectionTitleTag": "h2",
                             "sectionSubtitleTag": "h3",
                             "sectionColorScheme": "secondary",
-                            "style_custom_color": "#e7c5f8",
+                            "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "5",
+                            "sectionPaddingTop": "6",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -1162,6 +1355,7 @@
                             "sectionOverline": "",
                             "sectionTitle": "Selaile tuotemerkkej\u00e4",
                             "sectionSubtitle": "",
+                            "sectionDescription": "",
                             "colPerRow": "8",
                             "sectionHeaderTextAlign": "center",
                             "logoAlign": "center",
@@ -1171,6 +1365,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
                             "sectionPaddingMode": "auto",
                             "sectionPaddingTop": "1",
                             "sectionPaddingBottom": "6",
@@ -1197,7 +1392,13 @@
                                                 "width": "217",
                                                 "height": "735"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     "1485272252048968": {
@@ -1211,7 +1412,13 @@
                                                 "width": "457",
                                                 "height": "618"
                                             },
-                                            "imgScaleRatio": "0.6"
+                                            "imgScaleRatio": "0.6",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     "3497938686528596": {
@@ -1225,7 +1432,13 @@
                                                 "width": "152",
                                                 "height": "494"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     "1318417319946211": {
@@ -1239,7 +1452,13 @@
                                                 "width": "233",
                                                 "height": "538"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     "8553285446493293": {
@@ -1253,7 +1472,13 @@
                                                 "width": "123",
                                                 "height": "505"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     },
                                     "3953914839908886": {
@@ -1267,7 +1492,13 @@
                                                 "width": "109",
                                                 "height": "502"
                                             },
-                                            "imgScaleRatio": "0.7"
+                                            "imgScaleRatio": "0.7",
+                                            "imgLink": {
+                                                "type": "url",
+                                                "record_id": "15683083",
+                                                "url": "\/valmistaja\/kinderfeets",
+                                                "target": "_self"
+                                            }
                                         }
                                     }
                                 }
@@ -1670,7 +1901,29 @@
                         "name": "product-template",
                         "id": "product-template",
                         "blocks": [],
-                        "settings": [],
+                        "settings": {
+                            "detailsFreeShippingLimit": "100",
+                            "detailsShippingAndReturnRichtext": "<p id=\"isPasted\"><strong>Ilmainen toimitus yli 100&euro; tilauksille!<\/strong><\/p><p>Nauti ilmaisesta toimituksesta, kun tilauksesi ylitt&auml;&auml; 100&euro;! Kaikkiin pienempiin tilauksiin lis&auml;t&auml;&auml;n standardi toimitusmaksu, joka n&auml;ytet&auml;&auml;n kassalla.<\/p><p><strong>Aina ilmainen palautus!<\/strong><\/p><p>Meille on t&auml;rke&auml;&auml;, ett&auml; olet tyytyv&auml;inen ostoksiisi. Siksi tarjoamme aina ilmaisen palautuksen, mik&auml;li haluat vaihtaa tai palauttaa tuotteen. Palautusoikeus on voimassa 30 p&auml;iv&auml;&auml; tilauksen vastaanottamisesta.<\/p>",
+                            "detailsPaymentRichtext": "<p id=\"isPasted\"><strong>Turvallista ostamista!<\/strong><\/p><p>Meille on t&auml;rke&auml;&auml;, ett&auml; ostokokemuksesi on sek&auml; miellytt&auml;v&auml; ett&auml; turvallinen. Siksi tarjoamme laajan valikoiman suosituimpia ja luotettavia maksutapoja:<br><br><\/p><ul><li><strong>Verkkopankit<\/strong>: Maksa suoraan omasta verkkopankistasi.<\/li><li><strong>Korttimaksut<\/strong>: Maksa k&auml;tev&auml;sti Visa, MasterCard tai American Express -korteilla.<\/li><li><strong>Klarna<\/strong>: Osta Klarnalla, jolloin voit p&auml;&auml;tt&auml;&auml; maksatko heti, my&ouml;hemmin tai osissa.<\/li><\/ul>",
+                            "showBreadcrumbs": true,
+                            "showBuyNowButton": true,
+                            "showQuantitySelect": true,
+                            "showProductQuestionForm": true,
+                            "showLowestPrice": true,
+                            "showVariantSelectionAsDropdown": false,
+                            "showProductCustomizationPrice": true,
+                            "showProductCustomizationTotalPrice": false,
+                            "showProductCustomizationStockBalance": false,
+                            "customDisplayInformation": false,
+                            "showManufacturer": true,
+                            "showPromotion": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showStockBalance": true,
+                            "showRelatedProductsAsOptions": false
+                        },
                         "sticky": true
                     }
                 ]
@@ -1740,19 +1993,183 @@
                         "sticky": true
                     }
                 ]
+            },
+            "cart": {
+                "sections": [
+                    {
+                        "id": "054b9f4020d74a23099b824998fcb60c",
+                        "title": "Kampanjabanneri alennuskoodilla",
+                        "name": "promotion-banner",
+                        "settings": {
+                            "bannerLayout": "2",
+                            "title": "5v.syntt\u00e4rit k\u00e4ynniss\u00e4 - saat kassalla -25% koodilla",
+                            "discountCode": "BLOOM5V",
+                            "datetime": "",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionTextAlign": "center",
+                            "btnStyle": "nil",
+                            "datetimeZeroPad": true,
+                            "datetimeHideTimeUnitOnZero": false,
+                            "datetimeShowYears": false,
+                            "datetimeShowMonths": false,
+                            "sectionColorScheme": "secondary",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "2",
+                            "sectionPaddingBottom": "2"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "name": "cart-template",
+                        "id": "cart-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    },
+                    {
+                        "id": "d09fe07f1a731e9240966f09bd66d20e",
+                        "title": "Tuotelista",
+                        "name": "product-list",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Kauden suosikit - N\u00e4it\u00e4 muut ostavat",
+                            "sectionSubtitle": "",
+                            "sectionDescription": "",
+                            "sectionQuickLinkResource": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "",
+                                "url": ""
+                            },
+                            "listType": "recent",
+                            "tagId": "",
+                            "category": {
+                                "type": "category",
+                                "id": "",
+                                "name": ""
+                            },
+                            "manufacturer": {
+                                "type": "manufacturer",
+                                "id": "",
+                                "name": ""
+                            },
+                            "productAmount": "12",
+                            "customDisplayInformation": true,
+                            "productPerRow": "6",
+                            "showProductName": true,
+                            "showManufacturer": true,
+                            "showPromotion": false,
+                            "showPricing": true,
+                            "showRating": true,
+                            "showNewBadge": true,
+                            "showPromotionBadge": true,
+                            "showDiscountBadge": true,
+                            "showOutOfStockBadge": true,
+                            "showAddToCart": true,
+                            "showStockBalance": false,
+                            "showVariants": true,
+                            "sectionHighlightItems": "nil",
+                            "sectionHeaderTextAlign": "nil",
+                            "sectionTextAlign": "nil",
+                            "sectionQuickLinkStyle": "nil",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": false,
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionAdditionalText": false,
+                            "sectionPaddingMode": "custom",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "5",
+                            "sectionBgImg": {
+                                "string_value": "",
+                                "src": "",
+                                "offset_top": "",
+                                "offset_left": "",
+                                "width": "",
+                                "height": ""
+                            },
+                            "sectionBgImgDimming": "0",
+                            "sectionBgImgBlur": "0"
+                        },
+                        "blocks": []
+                    },
+                    {
+                        "id": "394ee2cc1f3a5e9cff50552648680fda",
+                        "title": "Hero",
+                        "name": "hero",
+                        "settings": {
+                            "sectionOverline": "",
+                            "sectionTitle": "Luo oppimista tukevia leikkej\u00e4",
+                            "sectionSubtitle": "Valitse laajasta leluvalikoimastamme tuotteet, jotka rohkaisevat oppimista ja kehityst\u00e4 leikin kautta.",
+                            "btnLink": {
+                                "type": "url",
+                                "record_id": "",
+                                "text": "Shoppaile nyt",
+                                "url": "",
+                                "target": "_self"
+                            },
+                            "sectionBgImg": {
+                                "string_value": "https:\/\/images.unsplash.com\/photo-1596461404969-9ae70f2830c1?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHx0b3lzfGVufDB8fHx8MTcxNzIyODAwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "src": "https:\/\/images.unsplash.com\/photo-1596461404969-9ae70f2830c1?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHw3fHx0b3lzfGVufDB8fHx8MTcxNzIyODAwMnww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
+                                "offset_top": "50",
+                                "offset_left": "50",
+                                "width": "2561",
+                                "height": "3840"
+                            },
+                            "textHorizontalAlign": "center",
+                            "textVerticalAlign": "center",
+                            "btnStyle": "nil",
+                            "sectionHeaderFontSizeScale": "1",
+                            "sectionBgImgDimming": "30",
+                            "sectionBgImgBlur": "0",
+                            "sectionOverlineTag": "h3",
+                            "sectionTitleTag": "h2",
+                            "sectionSubtitleTag": "h3",
+                            "sectionColorScheme": "dark",
+                            "style_custom_color": "#f3f5f6",
+                            "sectionAdditionalTitles": false,
+                            "sectionPaddingMode": "auto",
+                            "sectionPaddingTop": "0",
+                            "sectionPaddingBottom": "0",
+                            "sectionHeight": "60"
+                        },
+                        "blocks": []
+                    }
+                ]
+            },
+            "password": {
+                "sections": [
+                    {
+                        "name": "password-template",
+                        "id": "password-template",
+                        "blocks": [],
+                        "settings": [],
+                        "sticky": true
+                    }
+                ]
             }
         },
         "pages": {
             "186403": {
                 "sections": [
                     {
-                        "id": "ee8d133c726363e0904202ea8c5df7f8",
-                        "title": "Otsikko",
-                        "name": "heading",
+                        "id": "7a5637c5e35fcb8c4850816e610722aa",
+                        "title": "Johdanto",
+                        "name": "intro",
                         "settings": {
                             "sectionOverline": "",
                             "sectionTitle": "Usein kysytty\u00e4",
                             "sectionSubtitle": "Yleisi\u00e4 kysymyksi\u00e4 ja vastauksia tuotteista ja verkkokaupasta tilaamisesta.",
+                            "sectionDescription": "",
                             "sectionContainer": "nil",
                             "sectionHeaderTextAlign": "nil",
                             "sectionHeaderFontSizeScale": "1",
@@ -1762,7 +2179,7 @@
                             "sectionColorScheme": false,
                             "style_custom_color": "#f3f5f6",
                             "sectionPaddingMode": "custom",
-                            "sectionPaddingTop": "7",
+                            "sectionPaddingTop": "5",
                             "sectionPaddingBottom": "0",
                             "sectionBgImg": {
                                 "string_value": "",
@@ -1997,7 +2414,7 @@
                                 "type": "url",
                                 "record_id": "",
                                 "text": "Liity nyt",
-                                "url": "",
+                                "url": "\/rekisteroidy",
                                 "target": "_self"
                             },
                             "sectionBgImg": {
@@ -2242,7 +2659,7 @@
                 "styleGridGutterWidth": "1.42855rem",
                 "styleIconStrokeWidth": "1.5px",
                 "styleFormFloatingHeight": "3rem",
-                "styleFormFloatingLineHeight": "1.25",
+                "styleFormFloatingLineHeight": "1.5",
                 "styleFormFloatingPaddingY": "0.8rem",
                 "styleFormFloatingPaddingX": "1rem",
                 "styleFormFloatingInputPaddingT": "1.525rem",
@@ -2370,7 +2787,7 @@
                 "productShowVariantOption3TaxonomyType": false,
                 "productShowName": true,
                 "productShowManufacturer": false,
-                "productShowPromotion": true,
+                "productShowPromotion": false,
                 "productShowPricing": true,
                 "productShowRating": true,
                 "productShowNewBadge": true,
@@ -2546,6 +2963,7 @@
                                 "sectionColorScheme": "dark",
                                 "sectionAdditionalTitles": false,
                                 "sectionMinHeight": "75",
+                                "sectionMinHeightMobile": "40",
                                 "setting_blocks": {
                                     "items": {
                                         "1": {
