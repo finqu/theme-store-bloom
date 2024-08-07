@@ -231,6 +231,8 @@
                                 "settings": {
                                     "index": "1",
                                     "colPerRow": "4",
+                                    "uiScale": "1",
+                                    "menuItemTextTransform": "uppercase",
                                     "menu": "mega",
                                     "promotion1Img": {
                                         "string_value": "https:\/\/images.unsplash.com\/photo-1601925240970-98447486fcdb?ixid=M3wyMjMzODd8MHwxfHNlYXJjaHwyfHxraWRzJTIwY2xvdGhpbmd8ZW58MHx8MXx8MTcxNDkwNDA3OXww&ixlib=rb-4.0.3&fit=crop&w=3840&q=80&fit=max",
@@ -319,6 +321,8 @@
                                 "settings": {
                                     "index": "2",
                                     "colPerRow": "4",
+                                    "uiScale": "1",
+                                    "menuItemTextTransform": "uppercase",
                                     "menu": "mega-vaatteet",
                                     "promotion1Img": {
                                         "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/hmgoepprod-16.jpeg",
@@ -407,6 +411,8 @@
                                 "settings": {
                                     "index": "3",
                                     "colPerRow": "4",
+                                    "uiScale": "1",
+                                    "menuItemTextTransform": "uppercase",
                                     "menu": "mega-sisustus",
                                     "promotion1Img": {
                                         "string_value": "https:\/\/media.finqu.com\/9f788bd38e2ac21221da7e14877417c832af023f1bd8a8aa5c5eb983776e91b4\/d3de0898-4fb4-4099-8430-5eda778d0b4d_ef06f634-49cb-4165-94b5-94dcf432117e.webp",
