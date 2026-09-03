@@ -1,0 +1,121 @@
+{
+    "name": {
+        "en": "Footer Group",
+        "fi": "Alatunnisteryhmä"
+    },
+    "type": "footer",
+    "max_sections": 5,
+    "allowed_sections": [
+        "footer",
+        "footer-link-bar",
+        "footer-localization-bar",
+        "footer-social-bar"
+    ],
+    "default_sections": [
+        {
+            "name": "footer",
+            "title": {
+                "en": "Footer",
+                "fi": "Alatunniste"
+            },
+            "settings": {
+                "footerBottomBorder": true,
+                "footerBottomBorderFluid": "",
+                "footerGap": "3rem",
+                "footerLayout": "6",
+                "footerLogoImg": {
+                    "height": "",
+                    "offset_left": "",
+                    "offset_top": "",
+                    "src": "",
+                    "string_value": "",
+                    "width": ""
+                },
+                "footerLogoStatus": true,
+                "footerMenu1": "footer",
+                "footerMenu1Title": {
+                    "type": "translation",
+                    "key": "placeholder.quick_links",
+                    "string_value": "Quick links"
+                },
+                "footerMenu2": "",
+                "footerMenu2Title": "",
+                "footerMenu3": "",
+                "footerMenu3Title": "",
+                "footerPaymentMethodsImg": {
+                    "height": "",
+                    "offset_left": "",
+                    "offset_top": "",
+                    "src": "",
+                    "string_value": "",
+                    "width": ""
+                },
+                "footerPaymentMethodsStatus": true,
+                "footerTextArea2Content": "<p>Bloom</p>",
+                "footerTextArea2Status": true,
+                "footerTopBorder": "",
+                "footerTopBorderFluid": "",
+                "sectionColorScheme": "custom",
+                "style_custom_color": "#f5f5f5",
+                "style_custom_text_color": "#444444",
+                "sectionPaddingMode": "custom",
+                "sectionPadding": {
+                    "apply_to_all_sides": false,
+                    "padding": {
+                        "top": 5.7,
+                        "right": 0,
+                        "bottom": 2.7,
+                        "left": 0
+                    }
+                },
+                "footerLocalizationStatus": true,
+                "style_custom_content_color": "#ffffff",
+                "style_custom_content_text_color": "",
+                "sectionBorderRadius": "0",
+                "sectionBgImg": "",
+                "sectionBgImgFit": "cover",
+                "sectionBgImgPosHorizontal": "center",
+                "sectionBgImgPosVertical": "center",
+                "sectionBgImgDimming": "0",
+                "sectionBgImgBlur": "0"
+            },
+            "blocks": [
+                {
+                    "id": "79f06df0313247cccc4d339c1a488d37",
+                    "name": "social-media-buttons",
+                    "container": "left"
+                },
+                {
+                    "id": "e2925661162c3698930554a230aa0ec4",
+                    "name": "heading",
+                    "container": "right",
+                    "settings": {
+                        "title": {
+                            "type": "translation",
+                            "key": "marketing.newsletter_popup.overline",
+                            "string_value": "Newsletter"
+                        },
+                        "titleStyle": "h3"
+                    }
+                },
+                {
+                    "id": "a353bf45930511759602b59a904c79fe",
+                    "name": "text",
+                    "container": "right",
+                    "settings": {
+                        "richtext": {
+                            "type": "translation",
+                            "key": "placeholder.footer_newsletter",
+                            "string_value": "<p id=\"isPasted\">Subscribe to our newsletter to get updates on new arrivals, special offers, and events.</p>"
+                        }
+                    }
+                },
+                {
+                    "id": "08d3313aca519807696ab9b6b139e6e0",
+                    "name": "newsletter",
+                    "container": "right"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": {
+        "en": "Header Group",
+        "fi": "Otsikkoryhmä"
+    },
+    "type": "header",
+    "max_sections": 5,
+    "allowed_sections": [
+        "utility-bar",
+        "announcement",
+        "countdown-bar",
+        "header"
+    ],
+    "default_sections": [
+        {
+            "name": "announcement",
+            "title": {
+                "en": "Announcement",
+                "fi": "Ilmoitus"
+            },
+            "settings": {
+                "announcementTextAlign": "center",
+                "announcementVisibility": "all",
+                "carouselAutoplaySpeed": "3",
+                "setting_blocks": {
+                    "items": {
+                        "d28aa972-5659-46fe-8bf1-abee07975948": {
+                            "settings": {
+                                "announcementLink": {
+                                    "record_id": "",
+                                    "target": "_self",
+                                    "text": "",
+                                    "type": "url",
+                                    "url": ""
+                                }
+                            },
+                            "type": "text"
+                        }
+                    }
+                }
+            },
+            "blocks": []
+        },
+        {
+            "name": "header",
+            "title": {
+                "en": "Header",
+                "fi": "Ylätunniste"
+            },
+            "sticky": true,
+            "settings": {
+                "gridContainer": "",
+                "headerItemsPaddingY": "1rem",
+                "logoImg": {
+                    "height": "",
+                    "offset_left": "",
+                    "offset_top": "",
+                    "src": "",
+                    "string_value": "",
+                    "width": ""
+                },
+                "logoSize": "120",
+                "menu": "main",
+                "menuItemsAlign": "center",
+                "mobileLogoPosition": "center",
+                "mobileLogoSize": 100,
+                "mobileMenu": "main",
+                "mobileMenuSecondary": "",
+                "mobileMenuSecondaryTitle": "",
+                "mobileNavigationSimple": false,
+                "mobileShowSearchInNavigation": false,
+                "mobileShowSocialIconsInNavigation": true
+            },
+            "blocks": []
+        }
+    ]
+}
